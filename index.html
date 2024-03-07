@@ -81,8 +81,42 @@
             </announcement> 
         </div>
       </pagelogo>
+      <script>
+        var countDownDate = new Date("May 5, 2024 12:00:00").getTime();
+        var x = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+          if(days > 0){
+            document.getElementById("time").innerHTML = days;
+            document.getElementById("increment").innerHTML = "days left";
+          }else if (hours > 0){
+            document.getElementById("time").innerHTML = hours;
+            document.getElementById("increment").innerHTML = "hours left";
+          }else if (minutes > 0){
+            document.getElementById("time").innerHTML = minutes;
+            document.getElementById("increment").innerHTML = "minutes left";
+          }else if (seconds > 0){
+            document.getElementById("time").innerHTML = seconds;
+            document.getElementById("increment").innerHTML = "seconds left";
+          }
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("time").innerHTML = "0 days left :(";
+            document.getElementById("increment").innerHTML = "";
+          }
+        }, 1000);
+        </script>
       <rowarea>
         <div class="container alert frostedglass">
+            <p class="text-center fs-2 runguszone">
+              <span class="badge text-bg-dark"><span class="" id="time">loading...</span> <span id="increment"></span></span>
+            </p>
+            <hr>
             <p class="text-center runguszone">Archiving every RoosterTeeth video because WB <em>sucks</em></p>
             <p class="text-center runguszone mb-n2 fs-5"><a href="https://discord.gg/SHCURNvG8v" class="alert-link">Join the Discord!</a> 
               - <a href="https://docs.google.com/spreadsheets/d/10g_7wKA2DEsoWWnG_RG-IyoZf3QEdIv8X97bUbrK5-E/edit?usp=sharing" class="alert-link">Source Document</a></p>
@@ -159,7 +193,6 @@
                   </ul>
                 </div>
                 <div class="container col-6">
-                  
                   <div class="container mb-3 frostedglass" id="ff-archived">
                     <p class="fs-4 runguszone">F**kFace:
                     </p><ul>
