@@ -1,3 +1,1 @@
-# roosterteeth-archival-website
-
-a repo!
+# [https://roosterteeth.rungus.zone/](https://roosterteeth.rungus.zone/)
