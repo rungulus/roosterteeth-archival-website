@@ -1,1 +1,1 @@
-# [https://roosterteeth.rungus.zone/](https://roosterteeth.rungus.zone/)
+# [https://archiveofpimps.com/](https://archiveofpimps.com/)
