@@ -8,8 +8,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.4);
-  filter: blur(10px);
+  box-shadow: inset 0 0 2000px rgba(0, 0, 0, 100);
+  /*filter: blur(10px);*/
 }
 .frostedglass {
   box-shadow: 0 0 1rem 0 #000;
@@ -18,7 +18,8 @@
   z-index: 1;
   background: inherit;
   overflow: hidden;
-  backdrop-filter: blur(10px);
+  background-color: rgba(69, 69, 69, 0.3);
+  /* backdrop-filter: blur(10px); */
 }
 .spaceBG {
   height: 100vh;
