@@ -286,8 +286,9 @@
   </body>
   <!-- hopefully this loads last -->
   <script>
-    var countDownDate = new Date("May 5, 2024 00:00:00").getTime(); //according to RT livestream, inside games video said May 10th...
-    var x = setInterval(function() {
+    var countDownDate = new Date("May 5, 2024 00:00:00").getTime(); 
+    //May 5 according to RT livestream, inside games video said May 10th...
+    function countdownClock() {
       var now = new Date().getTime();
       var distance = countDownDate - now;
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -313,6 +314,9 @@
         document.getElementById("time").innerHTML = "0 days left :(<br>RIP Rooster Teeth";
         document.getElementById("increment").innerHTML = "";
       }
-    }, 1000);
+    }
+    document.onload(countdownClock());
+    //var x = setInterval(countdownClock(), 1000);
+    //we don't need to update this each second just yet.
     </script>
 </html>
