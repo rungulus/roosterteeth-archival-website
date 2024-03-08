@@ -1,11 +1,5 @@
 <!doctype html>
 <html lang="en" data-bs-theme="dark" class="spaceBG">
-  <script>
-    //let me guess, you want to see the source code?
-    //i'm not insane, there are comments here
-    //you can go see them at https://github.com/runguszone/runguszone/
-    //ok bye
-  </script>
   <head>
     <!-- these meta tags cannot be nested in a module, so they're out here -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +8,6 @@
     <meta charset="utf-8">
     <meta name="description" content="Archiving Every* RT Video" />
     <!-- preload critical css first -->
-    <!-- long stylesheet time! -->
     <link rel="stylesheet" href="https://cdn.rungus.zone/v4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rungus.zone/v4/css/custom.css">
     <!-- defer backdrop and icons -->
@@ -37,7 +30,7 @@
       <meta property="twitter:description" content="Archiving Every* Rooster Teeth Video" />
       <meta property="twitter:image" content="https://cdn.rungus.zone/rt/rt2.png" />
     </tags>
-    <icons>
+    <icons><!--favicon stuff-->
       <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.rungus.zone/rt/fav/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.rungus.zone/rt/fav/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.rungus.zone/rt/fav/favicon-16x16.png">
@@ -67,50 +60,12 @@
     <div class="container">
       <pagelogo>
           <div class="">
-            <!-- top of screen info, used for a welcome message and rungus zone yeah cool -->
-            <div class="frostedglass mt-3 mb-n">
+            <div class="frostedglass mt-3 mb-3">
               <p class="text-center m-0"><span class="runguszone siteText">Archive of Pimps</p>
                 <p class="fs-5 text-center runguszone">The Rooster Teeth Archival Project</p>        
             </div>
-            <!-- can use this for announcements -->
-            <br><announcement>
-              <!-- <nocss class="nocss text-center mt-n">
-                <p class="text-center mt-n mb-n2">seems like everything didn't load successfully<br>
-                  you should try refreshing</p>
-              </nocss> -->
-            </announcement> 
         </div>
       </pagelogo>
-      <script>
-        var countDownDate = new Date("May 5, 2024 12:00:00").getTime();
-        var x = setInterval(function() {
-          var now = new Date().getTime();
-          var distance = countDownDate - now;
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-          if(days > 0){
-            document.getElementById("time").innerHTML = days;
-            document.getElementById("increment").innerHTML = "days left of Rooster Teeth";
-          }else if (hours > 0){
-            document.getElementById("time").innerHTML = hours;
-            document.getElementById("increment").innerHTML = "hours left of Rooster Teeth";
-          }else if (minutes > 0){
-            document.getElementById("time").innerHTML = minutes;
-            document.getElementById("increment").innerHTML = "minutes left of Rooster Teeth";
-          }else if (seconds > 0){
-            document.getElementById("time").innerHTML = seconds;
-            document.getElementById("increment").innerHTML = "seconds left of Rooster Teeth :(";
-          }
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("time").innerHTML = "0 days left :(<br>RIP Rooster Teeth";
-            document.getElementById("increment").innerHTML = "";
-          }
-        }, 1000);
-        </script>
       <rowarea>
         <div class="container alert frostedglass">
             <p class="text-center fs-1 runguszone">
@@ -124,149 +79,189 @@
         </div>
       </rowarea>
       <rowarea>
-            <div class="container frostedglass pt-3 mb-3 pb-3" id="archived">
-              <div class="row">
-                <div class="container frostedglass col-5" id="rt-archived">
-                  <p class="fs-4 runguszone">RoosterTeeth:
-                  </p><ul>
-                    <li>The Strangerhood <br><a class="alert-link" href="https://archive.org/details/SH_S1">https://archive.org/details/SH_S1</a></li>
-                    <li>Happy Hour <br><a class="alert-link" href="https://archive.org/details/chickendentisthappyhour">https://archive.org/details/chickendentisthappyhour</a></li>
-                    <li>Captain Dynamic <br><a class="alert-link" href="https://archive.org/details/captain-dynamic">https://archive.org/details/captain-dynamic</a></li>
-                    <li>X-Ray & Vav <br><a class="alert-link" href="https://archive.org/details/x-ray-and-vav-series">https://archive.org/details/x-ray-and-vav-series</a></li>
-                    <li>RWBY vol.1 to vol.5 <br><a class="alert-link" href="https://archive.org/details/rwby-complete-volumes-1-5">https://archive.org/details/rwby-complete-volumes-1-5</a></li>
-                    <li>Red vs Blue: The Blood Gulch Chronicles <br><a class="alert-link" href="https://archive.org/details/blood-gulch-chronicles-2003">https://archive.org/details/blood-gulch-chronicles-2003</a></li>
-                    <li>Red vs Blue: Recollection <br><a class="alert-link" href="https://archive.org/details/the-recollection">https://archive.org/details/the-recollection</a></li>
-                    <li>RVB Non-remastered s1-8 <br><a class="alert-link" href="https://archive.org/details/red-vs-blue-non-remastered-archive">https://archive.org/details/red-vs-blue-non-remastered-archive</a></li>
-                    <li>Free Play <br><a class="alert-link" href="https://archive.org/details/rt-free-play">https://archive.org/details/rt-free-play</a></li>
-                    <li>Immersion <br><a class="alert-link" href="https://archive.org/details/immersion-trials-fusion-rooster-teeth-k-2r-xfzyy-1s/Behind+the+Scenes+at+RTX+and+Immersion+-+Horde+Mode+｜+Rooster+Teeth+%5BOZTMZHEWqEo%5D.mp4">https://archive.org/details/immersion...</a></li>
-                    <li>Me Vs. Drunk Me <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Me-vs-drunk-me">https://archive.org/details/Rooster-Teeth-Me-vs-drunk-me</a></li>
-                    <li>Ambush Interview <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Burnies-ambush-interview">https://archive.org/details/Rooster-Teeth-Burnies-ambush-interview</a></li>
-                    <li>Nomad of Nowhere <br><a class="alert-link" href="https://archive.org/details/n_20240307">https://archive.org/details/n_20240307</a></li>
-                    <li>RT Comics <br><a class="alert-link" href="https://archive.org/details/rt-comics">https://archive.org/details/rt-comics</a></li>
-                    <li>Buff Buddies <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Buff-Buddies">https://archive.org/details/Rooster-Teeth-Buff-Buddies</a></li>
-                    <li>Dead Little Roosters <br><a class="alert-link" href="https://archive.org/details/dead-little-roosters">https://archive.org/details/dead-little-roosters</a></li>
-                    <li>Nature Town <br><a class="alert-link" href="https://archive.org/details/nature-town-rt">https://archive.org/details/nature-town-rt</a></li>
-                    <li>RTAA <br><a class="alert-link" href="https://archive.org/details/rooster-teeth-animated-adventures">https://archive.org/details/rooster-teeth-animated-adventures</a></li>
-                    <li>RT Shorts <br><a class="alert-link" href="https://archive.org/details/20240307_20240307_0237">https://archive.org/details/20240307_20240307_0237</a></li>
-                    <li>Stroyent <br><a class="alert-link" href="https://archive.org/details/stroyent-rt">https://archive.org/details/stroyent-rt</a></li>
-                    <li>One Minute Melee <br><a class="alert-link" href="https://archive.org/details/one-minute-melee-link-vs-sora-zelda-vs-kingdom-hearts-60fps-whu-e-8ou-wdi-q">https://archive.org/details/one-minute-melee...</a></li>
-                  </ol>
-                </div>
-                <div class="container frostedglass col-6" id="ah-archived">
-                  <p class="fs-4 runguszone">Achievement Hunter:
-                  </p><ul>
-                    <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/achievement-hunter-theater-mode">https://archive.org/details/achievement-hunter-theater-mode</a></li>
-                    <li>Go! <br><a class="alert-link"  href="https://archive.org/details/go-achievement-hunter">https://archive.org/details/go-achievement-hunter</a>
-                    <li>VS <br><a class="alert-link"  href="https://archive.org/details/vs-achievement-hunter">https://archive.org/details/vs-achievement-hunter</a></li>
-                    <li>Lets Build <br><a class="alert-link" href="https://archive.org/details/achievement-hunter-lets-build">https://archive.org/details/achievement-hunter-lets-build</a></li>
-                    <li>Haunter <br><a class="alert-link" href="https://archive.org/details/achievement-haunter">https://archive.org/details/achievement-haunter</a></li>
-                    <li>Worms <br><a class="alert-link" href="https://archive.org/details/lets-play-worms-achievement-hunter">https://archive.org/details/lets-play-worms-achievement-hunter</a></li>
-                    <li>AH gameshow games <br><a class="alert-link" href="https://archive.org/details/trivia-and-gameshows-achievement-hunter">https://archive.org/details/trivia-and-gameshows-achievement-hunter</a></li>
-                    <li>Rage Quit <br><a class="alert-link" href="https://archive.org/details/rage-quit-achievement-hunter">https://archive.org/details/rage-quit-achievement-hunter</a></li>
-                    <li>Easter Eggs <br><a class="alert-link" href="https://archive.org/details/easter-eggs-achievement-hunter">https://archive.org/details/easter-eggs-achievement-hunter</a></li>
-                    <li>AH Top 5 <br><a class="alert-link" href="https://archive.org/details/top-5-countdown-achievement-hunter">https://archive.org/details/top-5-countdown-achievement-hunter</a></li>
-                    <li>Uno: The Movie <br><a class="alert-link" href="https://archive.org/details/lets-play-uno-the-movie_202403">https://archive.org/details/lets-play-uno-the-movie_202403</a></li>
-                    <li>AH 2017 <br><a class="alert-link" href="https://archive.org/details/AchievementHunter_2017">https://archive.org/details/AchievementHunter_2017</a></li>
-                    <li>AH 2018 <br><a class="alert-link" href="https://archive.org/details/AchievementHunter_2018">https://archive.org/details/AchievementHunter_2018</a></li>
-                    <li>Technical Difficulties <br><a class="alert-link" href="https://archive.org/details/5kqa-4b">https://archive.org/details/5kqa-4b</a></li>
-                    <li>Hardcore Minigolf <br><a class="alert-link" href="https://archive.org/details/minigolf_202403/S01E01+Don't+Talk+To+Me+About+Friendship.mp4">https://archive.org/details/minigolf_202403...</a></li>
-                    <li>3D Ultra Minigolf Adventures <br><a class="alert-link" href="https://archive.org/details/lets-play-3d-ultra-minigolf-adventures-1-2">https://archive.org/details/lets-play-3d-ultra-minigolf-adventures-1-2</a></li>
-                    <li>The Red Dragon Inn <br><a class="alert-link" href="https://archive.org/details/hardcore-tabletop-presents-the-red-dragon-inn_202403">https://archive.org/details/hardcore-tabletop-presents-the-red-dragon-inn_202403</a></li>
-                    <li>Lets Play Live: Life On Tour <br><a class="alert-link" href="https://archive.org/details/letsplaylivelifeontour">https://archive.org/details/letsplaylivelifeontour</a></li>
-                  </ul>
-                </div>
+        <div class="container frostedglass pt-3 mb-3 pb-3" id="archived">
+          <div class="row">
+            <div class="container frostedglass col-5" id="rt-archived">
+              <!-- ROOSTER TEETH -->
+              <p class="fs-4 runguszone">Rooster Teeth:
+              </p><ul>
+                <li>The Strangerhood <br><a class="alert-link" href="https://archive.org/details/SH_S1">https://archive.org/details/SH_S1</a></li>
+                <li>Happy Hour <br><a class="alert-link" href="https://archive.org/details/chickendentisthappyhour">https://archive.org/details/chickendentisthappyhour</a></li>
+                <li>Captain Dynamic <br><a class="alert-link" href="https://archive.org/details/captain-dynamic">https://archive.org/details/captain-dynamic</a></li>
+                <li>X-Ray & Vav <br><a class="alert-link" href="https://archive.org/details/x-ray-and-vav-series">https://archive.org/details/x-ray-and-vav-series</a></li>
+                <li>RWBY vol.1 to vol.5 <br><a class="alert-link" href="https://archive.org/details/rwby-complete-volumes-1-5">https://archive.org/details/rwby-complete-volumes-1-5</a></li>
+                <li>Red vs Blue: The Blood Gulch Chronicles <br><a class="alert-link" href="https://archive.org/details/blood-gulch-chronicles-2003">https://archive.org/details/blood-gulch-chronicles-2003</a></li>
+                <li>Red vs Blue: Recollection <br><a class="alert-link" href="https://archive.org/details/the-recollection">https://archive.org/details/the-recollection</a></li>
+                <li>RVB Non-remastered s1-8 <br><a class="alert-link" href="https://archive.org/details/red-vs-blue-non-remastered-archive">https://archive.org/details/red-vs-blue-non-remastered-archive</a></li>
+                <li>Free Play <br><a class="alert-link" href="https://archive.org/details/rt-free-play">https://archive.org/details/rt-free-play</a></li>
+                <li>Immersion <br><a class="alert-link" href="https://archive.org/details/immersion-trials-fusion-rooster-teeth-k-2r-xfzyy-1s/Behind+the+Scenes+at+RTX+and+Immersion+-+Horde+Mode+｜+Rooster+Teeth+%5BOZTMZHEWqEo%5D.mp4">https://archive.org/details/immersion...</a></li>
+                <li>Me Vs. Drunk Me <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Me-vs-drunk-me">https://archive.org/details/Rooster-Teeth-Me-vs-drunk-me</a></li>
+                <li>Ambush Interview <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Burnies-ambush-interview">https://archive.org/details/Rooster-Teeth-Burnies-ambush-interview</a></li>
+                <li>Nomad of Nowhere <br><a class="alert-link" href="https://archive.org/details/n_20240307">https://archive.org/details/n_20240307</a></li>
+                <li>RT Comics <br><a class="alert-link" href="https://archive.org/details/rt-comics">https://archive.org/details/rt-comics</a></li>
+                <li>Buff Buddies <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Buff-Buddies">https://archive.org/details/Rooster-Teeth-Buff-Buddies</a></li>
+                <li>Dead Little Roosters <br><a class="alert-link" href="https://archive.org/details/dead-little-roosters">https://archive.org/details/dead-little-roosters</a></li>
+                <li>Nature Town <br><a class="alert-link" href="https://archive.org/details/nature-town-rt">https://archive.org/details/nature-town-rt</a></li>
+                <li>RTAA <br><a class="alert-link" href="https://archive.org/details/rooster-teeth-animated-adventures">https://archive.org/details/rooster-teeth-animated-adventures</a></li>
+                <li>RT Shorts <br><a class="alert-link" href="https://archive.org/details/20240307_20240307_0237">https://archive.org/details/20240307_20240307_0237</a></li>
+                <li>Stroyent <br><a class="alert-link" href="https://archive.org/details/stroyent-rt">https://archive.org/details/stroyent-rt</a></li>
+                <li>One Minute Melee <br><a class="alert-link" href="https://archive.org/details/one-minute-melee-link-vs-sora-zelda-vs-kingdom-hearts-60fps-whu-e-8ou-wdi-q">https://archive.org/details/one-minute-melee...</a></li>
+              </ol>
+            </div>
+            <div class="container frostedglass col-6" id="ah-archived">
+              <!-- ACHIEVEMENT HUNTER -->
+              <p class="fs-4 runguszone">Achievement Hunter:
+              </p><ul>
+                <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/achievement-hunter-theater-mode">https://archive.org/details/achievement-hunter-theater-mode</a></li>
+                <li>Go! <br><a class="alert-link"  href="https://archive.org/details/go-achievement-hunter">https://archive.org/details/go-achievement-hunter</a>
+                <li>VS <br><a class="alert-link"  href="https://archive.org/details/vs-achievement-hunter">https://archive.org/details/vs-achievement-hunter</a></li>
+                <li>Lets Build <br><a class="alert-link" href="https://archive.org/details/achievement-hunter-lets-build">https://archive.org/details/achievement-hunter-lets-build</a></li>
+                <li>Haunter <br><a class="alert-link" href="https://archive.org/details/achievement-haunter">https://archive.org/details/achievement-haunter</a></li>
+                <li>Worms <br><a class="alert-link" href="https://archive.org/details/lets-play-worms-achievement-hunter">https://archive.org/details/lets-play-worms-achievement-hunter</a></li>
+                <li>AH gameshow games <br><a class="alert-link" href="https://archive.org/details/trivia-and-gameshows-achievement-hunter">https://archive.org/details/trivia-and-gameshows-achievement-hunter</a></li>
+                <li>Rage Quit <br><a class="alert-link" href="https://archive.org/details/rage-quit-achievement-hunter">https://archive.org/details/rage-quit-achievement-hunter</a></li>
+                <li>Easter Eggs <br><a class="alert-link" href="https://archive.org/details/easter-eggs-achievement-hunter">https://archive.org/details/easter-eggs-achievement-hunter</a></li>
+                <li>AH Top 5 <br><a class="alert-link" href="https://archive.org/details/top-5-countdown-achievement-hunter">https://archive.org/details/top-5-countdown-achievement-hunter</a></li>
+                <li>Uno: The Movie <br><a class="alert-link" href="https://archive.org/details/lets-play-uno-the-movie_202403">https://archive.org/details/lets-play-uno-the-movie_202403</a></li>
+                <li>AH 2017 <br><a class="alert-link" href="https://archive.org/details/AchievementHunter_2017">https://archive.org/details/AchievementHunter_2017</a></li>
+                <li>AH 2018 <br><a class="alert-link" href="https://archive.org/details/AchievementHunter_2018">https://archive.org/details/AchievementHunter_2018</a></li>
+                <li>Technical Difficulties <br><a class="alert-link" href="https://archive.org/details/5kqa-4b">https://archive.org/details/5kqa-4b</a></li>
+                <li>Hardcore Minigolf <br><a class="alert-link" href="https://archive.org/details/minigolf_202403/S01E01+Don't+Talk+To+Me+About+Friendship.mp4">https://archive.org/details/minigolf_202403...</a></li>
+                <li>3D Ultra Minigolf Adventures <br><a class="alert-link" href="https://archive.org/details/lets-play-3d-ultra-minigolf-adventures-1-2">https://archive.org/details/lets-play-3d-ultra-minigolf-adventures-1-2</a></li>
+                <li>The Red Dragon Inn <br><a class="alert-link" href="https://archive.org/details/hardcore-tabletop-presents-the-red-dragon-inn_202403">https://archive.org/details/hardcore-tabletop-presents-the-red-dragon-inn_202403</a></li>
+                <li>Lets Play Live: Life On Tour <br><a class="alert-link" href="https://archive.org/details/letsplaylivelifeontour">https://archive.org/details/letsplaylivelifeontour</a></li>
+              </ul>
+            </div>
+          </div>
+        </rowarea>
+        <br>
+        <rowarea>
+          <div class="row">
+            <div class="container frostedglass col-5" id="fh-archived">
+              <!-- FUNHAUS -->
+              <p class="fs-4 runguszone">Funhaus:
+              </p><ul>
+                <li>Funhaus 2015 <br><a class="alert-link" href="https://archive.org/details/funhaus_2015">https://archive.org/details/funhaus_2015</a></li>
+                <li>Funhaus 2016 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2016">https://archive.org/details/funhaus_2016</a>
+                  <li>Funhaus 2017 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2017">https://archive.org/details/funhaus_2017</a></li>
+                  <li>Funhaus 2018 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2018">https://archive.org/details/funhaus_2018</a></li>
+                  <li>Funhaus 2019 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2019">https://archive.org/details/funhaus_2019</a></li>
+                  <li>Funhaus 2020 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2020">https://archive.org/details/funhaus_2020</a></li>
+                  <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/theater-mode-funhaus">https://archive.org/details/theater-mode-funhaus</a></li>
+              </ul>
+            </div>
+            <div class="container col-6">
+              <div class="container mb-3 frostedglass" id="ff-archived">
+                <!-- F**KFACE -->
+                <p class="fs-4 runguszone">F**kFace:
+                </p><ul>
+                  <li>Does It Do? <br><a class="alert-link" href="https://archive.org/details/s-1-e-1-does-it-do-no-stitch">https://archive.org/details/s-1-e-1-does-it-do-no-stitch</a></li>
+                  <li>Regulation Animation <br><a class="alert-link" href="https://archive.org/details/s-1-e-3-banged-up-bike-rides/S1E1+The+Vancouver+Child+Kicker.mp4">https://archive.org/details/s-1-e-3-banged-up-bike-rides...</a></li>
+                </ul>
               </div>
-              <br>
-              <div class="row">
-                <div class="container frostedglass col-5" id="fh-archived">
-                  <p class="fs-4 runguszone">Funhaus:
-                  </p><ul>
-                    <li>Funhaus 2015 <br><a class="alert-link" href="https://archive.org/details/funhaus_2015">https://archive.org/details/funhaus_2015</a></li>
-                    <li>Funhaus 2016 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2016">https://archive.org/details/funhaus_2016</a>
-                      <li>Funhaus 2017 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2017">https://archive.org/details/funhaus_2017</a></li>
-                      <li>Funhaus 2018 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2018">https://archive.org/details/funhaus_2018</a></li>
-                      <li>Funhaus 2019 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2019">https://archive.org/details/funhaus_2019</a></li>
-                      <li>Funhaus 2020 <br><a class="alert-link"  href="https://archive.org/details/funhaus_2020">https://archive.org/details/funhaus_2020</a></li>
-                      <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/theater-mode-funhaus">https://archive.org/details/theater-mode-funhaus</a></li>
-                  </ul>
-                </div>
-                <div class="container col-6">
-                  <div class="container mb-3 frostedglass" id="ff-archived">
-                    <p class="fs-4 runguszone">F**kFace:
-                    </p><ul>
-                      <li>Does It Do? <br><a class="alert-link" href="https://archive.org/details/s-1-e-1-does-it-do-no-stitch">https://archive.org/details/s-1-e-1-does-it-do-no-stitch</a></li>
-                      <li>Regulation Animation <br><a class="alert-link" href="https://archive.org/details/s-1-e-3-banged-up-bike-rides/S1E1+The+Vancouver+Child+Kicker.mp4">https://archive.org/details/s-1-e-3-banged-up-bike-rides...</a></li>
-                    </ul>
-                  </div>
-                  <div class="container mb-3 frostedglass" id="sp7-archived">
-                    <p class="fs-4 runguszone">Sugar Pine 7:
-                    </p><ul>
-                      <li>All SP7 Videos <br><a class="alert-link" href="https://sp7archive.org/">https://sp7archive.org/</a></li>
-                    </ul>
-                  </div>
-                  <div class="container frostedglass" id="sp7-archived">
-                    <p class="fs-4 runguszone">Best Friends Today:
-                    </p><ul>
-                      <li>All(?) BFT Videos <br><a class="alert-link" href="https://archive.org/details/bft-archive">https://archive.org/details/bft-archive</a></li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="container mb-3 frostedglass" id="sp7-archived">
+                <!-- SUGAR PINE 7 -->
+                <p class="fs-4 runguszone">Sugar Pine 7:
+                </p><ul>
+                  <li>All SP7 Videos <br><a class="alert-link" href="https://sp7archive.org/">https://sp7archive.org/</a></li>
+                </ul>
               </div>
-              <div class="row mt-3">
-                <div class="container frostedglass col-5" id="fh-archived">
-                  <p class="fs-4 runguszone">Podcasts:
+              <div class="container frostedglass" id="sp7-archived">
+                <!-- BEST FRIENDS TODAY -->
+                <p class="fs-4 runguszone">Best Friends Today:
+                </p><ul>
+                  <li>All(?) BFT Videos <br><a class="alert-link" href="https://archive.org/details/bft-archive">https://archive.org/details/bft-archive</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </rowarea>
+        <rowarea>
+            <div class="row mt-3">
+              <div class="container frostedglass col-5" id="fh-archived">
+                <!-- PODCASTS -->
+                <p class="fs-4 runguszone">Podcasts:
+                </p><ul>
+                  <li>So... Alright <br><a class="alert-link" href="https://archive.org/details/rt-so-alright">https://archive.org/details/rt-so-alright</a></li>
+                  <li>RT Podcast (1-235) <br><a class="alert-link" href="https://archive.org/details/roosterteeth-podcast-collection-2008">https://archive.org/details/roosterteeth-podcast-collection-2008</a></li>
+                  <li>RT Podcast video (100-230) <br><a class="alert-link" href="https://archive.org/details/roosterteeth-podcast-collection-video-2011">https://archive.org/details/roosterteeth-podcast-collection-video-2011</a></li>
+                  <li>Annual Pass <br><a class="alert-link" href="https://archive.org/details/rt-annual-pass">https://archive.org/details/rt-annual-pass</a></li>
+                  <li>Assorted RT Podcasts (Always Open 1-140, On the Spot audio, Off Topic 1-64, Black Box Down 1-42, etc) <br><a class="alert-link" href="https://archive.org/details/rooster-teeth-podcast-network-2021">https://archive.org/details/rooster-teeth-podcast-network-2021</a></li>
+                  <li>Let Me Clarify <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Let-Me-Clarify">https://archive.org/details/Rooster-Teeth-Let-Me-Clarify</a></li>
+                  <li>A Simple Talk <br><a class="alert-link" href="https://archive.org/details/rt-a-simple-talk">https://archive.org/details/rt-a-simple-talk</a></li>
+                  <li>A Spot of Science <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-A-Spot-of-Science">https://archive.org/details/Rooster-Teeth-A-Spot-of-Science</a></li>
+                </ul>
+              </div>
+              <div class="container col-6">
+                <div class="container mb-3 frostedglass" id="cc-archived">
+                  <!-- COW CHOP -->
+                  <p class="fs-4 runguszone">Cow Chop:
                   </p><ul>
-                    <li>So... Alright <br><a class="alert-link" href="https://archive.org/details/rt-so-alright">https://archive.org/details/rt-so-alright</a></li>
-                    <li>RT Podcast (1-235) <br><a class="alert-link" href="https://archive.org/details/roosterteeth-podcast-collection-2008">https://archive.org/details/roosterteeth-podcast-collection-2008</a></li>
-                    <li>RT Podcast video (100-230) <br><a class="alert-link" href="https://archive.org/details/roosterteeth-podcast-collection-video-2011">https://archive.org/details/roosterteeth-podcast-collection-video-2011</a></li>
-                    <li>Annual Pass <br><a class="alert-link" href="https://archive.org/details/rt-annual-pass">https://archive.org/details/rt-annual-pass</a></li>
-                    <li>Assorted RT Podcasts (Always Open 1-140, On the Spot audio, Off Topic 1-64, Black Box Down 1-42, etc) <br><a class="alert-link" href="https://archive.org/details/rooster-teeth-podcast-network-2021">https://archive.org/details/rooster-teeth-podcast-network-2021</a></li>
-                    <li>Let Me Clarify <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-Let-Me-Clarify">https://archive.org/details/Rooster-Teeth-Let-Me-Clarify</a></li>
-                    <li>A Simple Talk <br><a class="alert-link" href="https://archive.org/details/rt-a-simple-talk">https://archive.org/details/rt-a-simple-talk</a></li>
-                    <li>A Spot of Science <br><a class="alert-link" href="https://archive.org/details/Rooster-Teeth-A-Spot-of-Science">https://archive.org/details/Rooster-Teeth-A-Spot-of-Science</a></li>
+                    <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/theater-mode-cow-chop">https://archive.org/details/theater-mode-cow-chop</a></li>
                   </ul>
                 </div>
-                <div class="container col-6">
-                  
-                  <div class="container mb-3 frostedglass" id="cc-archived">
-                    <p class="fs-4 runguszone">Cow Chop:
-                    </p><ul>
-                      <li>Theatre Mode <br><a class="alert-link" href="https://archive.org/details/theater-mode-cow-chop">https://archive.org/details/theater-mode-cow-chop</a></li>
-                    </ul>
-                  </div>
-                  <div class="container mb-3 frostedglass" id="ff-archived">
-                    <p class="fs-4 runguszone">Music:
-                    </p><ul>
-                      <li>Camp Camp S1 Soundtrack <br><a class="alert-link" href="https://archive.org/details/camp-camp-season-one-soundtrack-rooster-teeth">https://archive.org/details/camp-camp-season-one-soundtrack-rooster-teeth</a></li>
-                    </ul>
-                  </div>
-                  <div class="container mb-3 frostedglass" id="com-archived">
-                    <p class="fs-4 runguszone">Misc. Stuff:
-                    </p><ul>
-                      <li>Default Community Avatars + Avatars of Cast Members <br><a class="alert-link" href="https://archive.org/details/RTAvA">https://archive.org/details/RTAvA</a></li>
-                    </ul>
-                  </div>
+                <div class="container mb-3 frostedglass" id="ff-archived">
+                  <!-- MUSIC -->
+                  <p class="fs-4 runguszone">Music:
+                  </p><ul>
+                    <li>Camp Camp S1 Soundtrack <br><a class="alert-link" href="https://archive.org/details/camp-camp-season-one-soundtrack-rooster-teeth">https://archive.org/details/camp-camp-season-one-soundtrack-rooster-teeth</a></li>
+                  </ul>
+                </div>
+                <div class="container mb-3 frostedglass" id="com-archived">
+                  <!-- MISC. STUFF -->
+                  <p class="fs-4 runguszone">Misc. Stuff:
+                  </p><ul>
+                    <li>Default Community Avatars + Avatars of Cast Members <br><a class="alert-link" href="https://archive.org/details/RTAvA">https://archive.org/details/RTAvA</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-          
-      </rowarea>
-      <rowarea>
-        
+          </div>
+        </rowarea>
+        <rowarea>
         <div class="container alert frostedglass">
             <p class="text-center runguszone">some rt channels are also getting fully dumped on "the eye", go check that out!</p>
             <p class="text-center runguszone mb-n2 fs-5"><a href="https://the-eye.eu/roosteretal/" class="alert-link">https://the-eye.eu/roosteretal/</a></p>
         </div>
       </rowarea>
-      
       <div class="container alert frostedglass" style="color:azure;">
         <p class="runguszone text-center mb-n2">all content linked on this page is property of their respective owners</p><br>  
         <span class="runguszone"><a href="https://rungus.zone/terms" class="alert-link">tos</a><br>
         <a href="https://github.com/runguszone/roosterteeth-archival-website" class="alert-link">this site doesn't update automatically, wanna help out?</a> 
         <span class="alert-link"></span>
         <span class="float-end">❤, rungus & undeadmatrix</span><br></span>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
+  <!-- hopefully this loads last -->
+  <script>
+    var countDownDate = new Date("May 5, 2024 12:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      if(days > 0){
+        document.getElementById("time").innerHTML = days;
+        document.getElementById("increment").innerHTML = "days left of Rooster Teeth";
+      }else if (hours > 0){
+        document.getElementById("time").innerHTML = hours;
+        document.getElementById("increment").innerHTML = "hours left of Rooster Teeth";
+      }else if (minutes > 0){
+        document.getElementById("time").innerHTML = minutes;
+        document.getElementById("increment").innerHTML = "minutes left of Rooster Teeth";
+      }else if (seconds > 0){
+        document.getElementById("time").innerHTML = seconds;
+        document.getElementById("increment").innerHTML = "seconds left of Rooster Teeth :(";
+      }
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("time").innerHTML = "0 days left :(<br>RIP Rooster Teeth";
+        document.getElementById("increment").innerHTML = "";
+      }
+    }, 1000);
+    </script>
 </html>
