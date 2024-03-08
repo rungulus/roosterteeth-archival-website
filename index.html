@@ -293,6 +293,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
       if(days > 0){
+        clearInterval(x);//we don't need to run this each second if there are days left
         document.getElementById("time").innerHTML = days;
         document.getElementById("increment").innerHTML = "days left of Rooster Teeth";
       }else if (hours > 0){
@@ -311,8 +312,6 @@
         document.getElementById("increment").innerHTML = "";
       }
     }
-    document.onload(countdownClock());
-    //var x = setInterval(countdownClock(), 1000);
-    //we don't need to update this each second just yet.
+    var x = setInterval(countdownClock(), 1000);
     </script>
 </html>
