@@ -17,46 +17,48 @@ import archives from "../data/archives.json";
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .grid-container {
+  /* .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
     grid-gap: 10px;
-  }
+  } */
 
   .item {
     grid-row: span 1;
     grid-column: span 1;
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .grid-container {
       grid-template-columns: 1fr;
     }
-  }
+  } */
 </style>
 <div class="grid-container">
-  {
-    archives.map((archive) => (
-      <>
-      <div >
-        <div class="container item frostedglass">
-            <p class="fs-4 runguszone">{archive.category}</p>
-            <ul>
-              {archive.links.map((link) => (
-                <li>
-                  {link.name}
-                  <>
-                    <br />
-                    <a class="alert-link" href={link.url}>
-                      {link.url}
-                    </a>
-                  </>
-                </li>
-              ))}
-            </ul>
-        </div>
-      </div>
-      </>
-    ))
-  }
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {
+      archives.map((archive) => (
+        <>
+          <div class="col-6 pb-2">
+            <div class="frostedglass container">
+              <p class="fs-3 runguszone p-1 mb-n">{archive.category}</p>
+              <ul>
+                {archive.links.map((link) => (
+                  <li>
+                    {link.name}
+                    <>
+                      <br />
+                      <a class="alert-link " href={link.url}>
+                        {link.url}
+                      </a>
+                    </>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>  
+        </>
+      ))
+    }
+  </div>
 </div>
