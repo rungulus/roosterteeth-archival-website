@@ -4,35 +4,12 @@ import archives from "../data/archives.json";
 
 <style>
   li {
-    font-size: 125%;
+    font-size: 145%;
     color: white;
     font-family:
       roboto slab,
       serif;
   }
-
-  .alert-link {
-    font-size: 80%;
-    color: #bababa;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  /* .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    grid-gap: 10px;
-  } */
-
-  .item {
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-
-  /* @media (max-width: 768px) {
-    .grid-container {
-      grid-template-columns: 1fr;
-    }
-  } */
 </style>
 <div class="grid-container">
   <div class="row" data-masonry='{"percentPosition": true }'>
@@ -41,17 +18,11 @@ import archives from "../data/archives.json";
         <>
           <div class="col-6 pb-2">
             <div class="frostedglass container">
-              <p class="fs-3 runguszone mb-n">{archive.category}</p>
+              <p class="fs-2 runguszone mb-n">{archive.category}</p>
               <ul>
                 {archive.links.map((link) => (
                   <li>
-                    {link.name}
-                    <>
-                      <br />
-                      <a class="alert-link " href={link.url}>
-                        {link.url}
-                      </a>
-                    </>
+                    <a class="alert-link runguszone" href={link.url}>{link.name}</a>
                   </li>
                 ))}
               </ul>
