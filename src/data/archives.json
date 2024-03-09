@@ -301,6 +301,10 @@
         "url": "https://archive.org/details/theater-mode-funhaus"
       },
       {
+        "name": "Wheelhaus",
+        "url": "https://archive.org/details/2015-07-23-sdgvwh-3-d-0b-0-wheelhaus-live"
+      },
+      {
         "name": "Funhaus 2015",
         "url": "https://archive.org/details/funhaus_2015"
       },
@@ -627,6 +631,14 @@
       {
         "name": "RWBY Vol. 5 Soundtrack",
         "url": "https://archive.org/details/RWBY-Vol-5-Flac"
+      },
+      {
+        "name": "RWBY Vol. 7 Soundtrack",
+        "url": "https://archive.org/details/RWBY-Vol-7-Flac"
+      },
+      {
+        "name": "RWBY Vol. 9 Soundtrack",
+        "url": "https://archive.org/details/RWBY-Vol-9-Flac"
       }
     ]
   }
