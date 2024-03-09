@@ -17,7 +17,7 @@ import archives from "../data/archives.json";
       archives.map((archive) => (
         <>
           <div class="col-6 pb-2">
-            <div class="frostedglass container">
+            <div class="frostedglass container" id={archive.category}>
               <p class="fs-2 runguszone mb-n">{archive.category}</p>
               <ul>
                 {archive.links.map((link) => (
