@@ -38,22 +38,24 @@ import archives from "../data/archives.json";
   {
     archives.map((archive) => (
       <>
-        <div class="container item frostedglass mb-3">
-          <p class="fs-4 runguszone">{archive.category}</p>
-          <ul>
-            {archive.links.map((link) => (
-              <li>
-                {link.name}
-                <>
-                  <br />
-                  <a class="alert-link" href={link.url}>
-                    {link.url}
-                  </a>
-                </>
-              </li>
-            ))}
-          </ul>
+      <div data-masonry='{"percentPosition": true }'>
+        <div class="container item frostedglass">
+            <p class="fs-4 runguszone">{archive.category}</p>
+            <ul>
+              {archive.links.map((link) => (
+                <li>
+                  {link.name}
+                  <>
+                    <br />
+                    <a class="alert-link" href={link.url}>
+                      {link.url}
+                    </a>
+                  </>
+                </li>
+              ))}
+            </ul>
         </div>
+      </div>
       </>
     ))
   }
