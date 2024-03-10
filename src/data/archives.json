@@ -264,6 +264,10 @@
           "url": "https://archive.org/details/megacraft-rooster-teeth"
       },
       {
+        "name": "Off Topic (Audio - FIRST)",
+        "url": "https://archive.org/details/rt-off-topic-podcast"
+      },
+      {
         "name": "Olympics: Summer 2012",
         "url": "https://archive.org/details/lets-play-london-2012with-geoff-michael-gavin-and-ray-rooster-teeth-720p"
       },
@@ -401,11 +405,11 @@
         "url": "https://archive.org/details/funhaus_2020"
       },
       {
-        "name": "Funhaus Podcast (Audio Podcast)",
+        "name": "Funhaus Podcast (Audio - FIRST)",
         "url": "https://archive.org/details/rt-funhaus-podcast"
       },
       {
-        "name": "Trash for Trash (Audio Podcast)",
+        "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
       }
     ]
@@ -418,7 +422,7 @@
         "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch_202403/S1E1+Does+It+Do？+No+Stitch!.mp4"
       },
       {
-        "name": "F**KFACE (Audio Podcast)",
+        "name": "F**KFACE (FIRST)",
         "url": "https://archive.org/details/rt-fkface"
       },
       {
@@ -463,7 +467,7 @@
         "url": "https://archive.org/details/rt-anma-podcast"
       },
       {
-        "name": "Always Open 2023 (Audio - FIRST)",
+        "name": "Always Open (Audio - FIRST)",
         "url": "https://archive.org/details/rt-always-open-2023"
       },
       {
@@ -499,7 +503,7 @@
         "url": "https://archive.org/details/rt-face-jam"
       },
       {
-        "name": "Funhaus Podcast (FIRST)",
+        "name": "Funhaus Podcast (Audio - FIRST)",
         "url": "https://archive.org/details/rt-funhaus-podcast"
       },
       {
@@ -507,7 +511,7 @@
         "url": "https://archive.org/details/rt-good-morning-from-hell"
       },
       {
-        "name": "Hypothetical Nonsense (FIRST)",
+        "name": "Hypothetical Nonsense (Audio - FIRST)",
         "url": "https://archive.org/details/rt-hypothetical-nonsense"
       },
       {
@@ -563,7 +567,7 @@
         "url": "https://archive.org/details/rt-the-most"
       },
       {
-        "name": "Trash for Trash (FIRST)",
+        "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
       },
       {
@@ -619,7 +623,7 @@
     "category": "All Good No Worries",
     "links": [
       {
-        "name": "Always Open (Audio Podcast)",
+        "name": "Always Open (Audio - FIRST)",
         "url": "https://archive.org/details/rt-always-open-2023"
       },
       {
@@ -640,7 +644,7 @@
         "url": "https://archive.org/details/bft-archive"
       },
       {
-        "name": "Hypothetical Nonsense (Audio Podcast)",
+        "name": "Hypothetical Nonsense (Audio - FIRST)",
         "url": "https://archive.org/details/rt-hypothetical-nonsense"
       }
     ]
