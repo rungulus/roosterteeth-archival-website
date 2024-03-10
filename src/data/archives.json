@@ -44,7 +44,7 @@
       },
       {
           "name": "Immersion",
-          "url": "https://archive.org/details/immersion-trials-fusion-rooster-teeth-k-2r-xfzyy-1s/Behind+the+Scenes+at+RTX+and+Immersion+-+Horde+Mode+｜+Rooster+Teeth+%5BOZTMZHEWqEo%5D.mp4"
+          "url": "https://archive.org/details/immersion-trials-fusion-rooster-teeth-k-2r-xfzyy-1s"
       },
       {
           "name": "Me Vs. Drunk Me",
@@ -117,6 +117,26 @@
       {
           "name": "X-Ray & Vav",
           "url": "https://archive.org/details/x-ray-and-vav-series"
+      },
+      {
+          "name": "Gen:Lock Season 1",
+          "url": "https://archive.org/details/Gen-Lock-Season-01"
+      },
+      {
+          "name": "Gen:Lock Season 2",
+          "url": "https://archive.org/details/Gen-Lock-Season-02"
+      },
+      {
+          "name": "RT Animation Shorts",
+          "url": "https://archive.org/details/Roosterteethanimation_shorts_roosterteeth/1+-+A+normal+first+day+of+Summer+Camp!+%23campcamp.mp4"
+      },
+      {
+          "name": "Hard Mode",
+          "url": "https://archive.org/details/rt-hard-mode"
+      },
+      {
+          "name": "Chump",
+          "url": "https://archive.org/details/chump_202403/S1E01+-+Can+YOU+Guess+Who's+Lying.mp4"
       }
     ]
   },
@@ -206,6 +226,10 @@
       {
           "name": "Let's Play The PainStation",
           "url": "https://archive.org/details/lets-play-the-pain-station"
+      },
+      {
+        "name": "Let's Play Overcooked",
+        "url": "https://archive.org/details/lets-play-overcooked"
       },
       {
           "name": "Let's Roll",
@@ -509,6 +533,10 @@
       {
         "name": "Assorted RT Podcasts",
         "url": "https://archive.org/details/rooster-teeth-podcast-network-2021"
+      },
+      {
+        "name": "Sportsball",
+        "url": "https://archive.org/details/Sportsball/2015-01+-+The+Worst+Sports+Fans.mp4"
       }
     ]
   },
@@ -608,6 +636,10 @@
       {
         "name": "Reboot or Retro",
         "url": "https://archive.org/details/screw-attack-reboot-or-retro"
+      },
+      {
+        "name": "Evil Craig",
+        "url": "https://archive.org/details/screw-attack-evil-craig"
       }
     ]
   },
