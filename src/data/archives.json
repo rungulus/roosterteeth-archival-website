@@ -327,19 +327,23 @@
       {
         "name": "Funhaus 2020",
         "url": "https://archive.org/details/funhaus_2020"
-      }
+      },
+      {
+        "name": "Trash for Trash (Audio Podcast)",
+        "url": "https://archive.org/details/rt-trash-for-trash"
+      },
     ]
   },
   {
-    "category": "F**K Face",
+    "category": "F**KFACE",
     "links": [
       {
         "name": "Does It Do?",
         "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch"
       },
       {
-        "name": "Regulation Animation",
-        "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch"
+        "name": "F**KFACE (Audio Podcast)",
+        "url": "https://archive.org/details/rt-fkface"
       },
       {
         "name": "F**KFACE OFF",
@@ -354,12 +358,16 @@
         "url": "https://archive.org/details/e-31-fkface-break-show-1-8/E1+F＊＊kface+Breaks+Sh＊t.mp4"
       },
       {
-        "name": "Regulation Gameplay Immortality",
-        "url": "https://archive.org/details/f--kface-regulation-gameplay-immortality-first"
+        "name": "Regulation Animation",
+        "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch"
       },
       {
         "name": "Regulation Gameplay",
         "url": "https://archive.org/details/e-18-trying-not-to-place-bronze-in-halo-ranked-regulation-gameplay/E1+Regulation+Gameplay+%E2%A7%B8%E2%A7%B8+Worms+%E2%A7%B8%E2%A7%B8+We're+the+New+Management.mp4"
+      },
+      {
+        "name": "Regulation Gameplay Immortality",
+        "url": "https://archive.org/details/f--kface-regulation-gameplay-immortality-first"
       }
     ]
   },
@@ -407,7 +415,7 @@
         "url": "https://archive.org/details/enjoy-the-show-after-the-credits"
       },
       {
-        "name": "F**face",
+        "name": "F**KFACE",
         "url": "https://archive.org/details/rt-fkface"
       },
       {
@@ -523,12 +531,16 @@
     "category": "All Good No Worries",
     "links": [
       {
-        "name": "How Hard Could It Be",
-        "url": "https://archive.org/details/AGNW-How-Hard-Could-it-be"
+        "name": "Always Open (Audio Podcast)",
+        "url": "https://archive.org/details/rt-always-open-2023"
       },
       {
         "name": "Cozy Couch",
         "url": "https://archive.org/details/old-school-barbie-game-still-works-cozy-couch-wh-7-wfbl-3-jjy"
+      },
+      {
+        "name": "How Hard Could It Be",
+        "url": "https://archive.org/details/AGNW-How-Hard-Could-it-be"
       }
     ]
   },
@@ -538,6 +550,10 @@
       {
         "name": "All(?) BFT Videos",
         "url": "https://archive.org/details/bft-archive"
+      },
+      {
+        "name": "Hypothetical Nonsense (Audio Podcast)",
+        "url": "https://archive.org/details/rt-hypothetical-nonsense"
       }
     ]
   },
