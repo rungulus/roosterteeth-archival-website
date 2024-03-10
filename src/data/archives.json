@@ -44,7 +44,7 @@
       },
       {
           "name": "Immersion",
-          "url": "https://archive.org/details/immersion-trials-fusion-rooster-teeth-k-2r-xfzyy-1s"
+          "url": "https://archive.org/details/Immersion_Full_Archive_with_First/"
       },
       {
           "name": "Me Vs. Drunk Me",
@@ -110,6 +110,10 @@
           "name": "Stroyent",
           "url": "https://archive.org/details/stroyent-rt"
       },
+      {
+        "name": "Star Wars Early Screening Prank",
+        "url": "https://archive.org/details/star-wars-early-screening-prank-no-spoilers-rooster-teeth"
+    },
       {
           "name": "Ten Little Roosters",
           "url": "https://archive.org/details/ten-little-roosters-episode-1-and-then-there-were-nine-4-k/Ten+Little+Roosters+-+Episode+1_+And+Then+There+Were+Nine+4K.mp4"
@@ -395,7 +399,7 @@
     "links": [
       {
         "name": "Does It Do?",
-        "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch"
+        "url": "https://archive.org/details/s-1-e-1-does-it-do-no-stitch_202403/S1E1+Does+It+Do？+No+Stitch!.mp4"
       },
       {
         "name": "F**KFACE (Audio Podcast)",
@@ -419,7 +423,7 @@
       },
       {
         "name": "Regulation Gameplay",
-        "url": "https://archive.org/details/e-18-trying-not-to-place-bronze-in-halo-ranked-regulation-gameplay/E1+Regulation+Gameplay+%E2%A7%B8%E2%A7%B8+Worms+%E2%A7%B8%E2%A7%B8+We're+the+New+Management.mp4"
+        "url": "https://archive.org/details/e-27-the-truck-boys-get-a-first-look-at-expeditions-a-mudrunner-game-early-access/Which+Hole+Is+the+Right+Hole？!+⧸⧸+Regulation+Gameplay+%5BnjWGgNs8KeI%5D.webm"
       },
       {
         "name": "Regulation Gameplay Immortality",
@@ -635,8 +639,21 @@
     ]
   },
   {
+    "category": "Game Kids",
+    "links": [
+      {
+        "name": "Minecraft",
+        "url": "https://archive.org/details/gamekidsminecraft_roosterteeth"
+      }
+    ]
+  },
+  {
     "category": "Screw Attack",
     "links": [
+      {
+        "name": "Evil Craig",
+        "url": "https://archive.org/details/screw-attack-evil-craig"
+      },
       {
         "name": "Greatest Moments in Gaming History",
         "url": "https://archive.org/details/screw-attack-greatest-moments-in-gaming"
@@ -646,13 +663,14 @@
         "url": "https://archive.org/details/screw-attack-the-industry"
       },
       {
-        "name": "Reboot or Retro",
-        "url": "https://archive.org/details/screw-attack-reboot-or-retro"
+        "name": "Out of The Box",
+        "url": "https://archive.org/details/screw-attack-out-of-the-box"
       },
       {
-        "name": "Evil Craig",
-        "url": "https://archive.org/details/screw-attack-evil-craig"
+        "name": "Reboot or Retro",
+        "url": "https://archive.org/details/screw-attack-reboot-or-retro"
       }
+      
     ]
   },
   {
