@@ -113,7 +113,7 @@
       {
         "name": "Star Wars Early Screening Prank",
         "url": "https://archive.org/details/star-wars-early-screening-prank-no-spoilers-rooster-teeth"
-    },
+      },
       {
           "name": "Ten Little Roosters",
           "url": "https://archive.org/details/ten-little-roosters-episode-1-and-then-there-were-nine-4-k/Ten+Little+Roosters+-+Episode+1_+And+Then+There+Were+Nine+4K.mp4"
@@ -145,6 +145,18 @@
       {
         "name": "The Show Show",
         "url": "https://archive.org/details/the-show-show-complete"
+      },
+      {
+        "name": "Let Me Clarify",
+        "url": "https://archive.org/details/Rooster-Teeth-Let-Me-Clarify"
+      },
+      {
+        "name": "A Spot of Science",
+        "url": "https://archive.org/details/Rooster-Teeth-A-Spot-of-Science"
+      },
+      {
+        "name": "Enjoy the Show: After The Credits",
+        "url": "https://archive.org/details/enjoy-the-show-after-the-credits"
       }
     ]
   },
@@ -439,124 +451,120 @@
     "category": "Podcasts",
     "links": [
       {
-        "name": "30 Morbid Minutes",
+        "name": "30 Morbid Minutes (FIRST)",
         "url": "https://archive.org/details/rt-thirty-morbid-minutes"
       },
       {
-        "name": "A Simple Talk",
+        "name": "A Simple Talk (FIRST)",
         "url": "https://archive.org/details/rt-a-simple-talk"
       },
       {
-        "name": "A Spot of Science",
-        "url": "https://archive.org/details/Rooster-Teeth-A-Spot-of-Science"
-      },
-      {
-        "name": "ANMA",
+        "name": "ANMA (FIRST)",
         "url": "https://archive.org/details/rt-anma-podcast"
       },
       {
-        "name": "Always Open (2023 Reboot)",
+        "name": "Always Open 2023 (Audio - FIRST)",
         "url": "https://archive.org/details/rt-always-open-2023"
       },
       {
-        "name": "Annual Pass",
+        "name": "Annual Pass (FIRST)",
         "url": "https://archive.org/details/rt-annual-pass"
       },
       {
-        "name": "Beneath",
+        "name": "Beneath (FIRST)",
         "url": "https://archive.org/details/rt-beneath"
       },
       {
-        "name": "Black Box Down",
+        "name": "Black Box Down (FIRST)",
         "url": "https://archive.org/details/rt-black-box-down"
       },
       {
-        "name": "D&D, but...",
+        "name": "D&D, but... (FIRST)",
         "url": "https://archive.org/details/rt-dnd-but"
       },
       {
-        "name": "DEATH BATTLE Cast",
+        "name": "DEATH BATTLE Cast (FIRST)",
         "url": "https://archive.org/details/rt-death-battle-cast"
-      },
+      }
       {
-        "name": "Enjoy the Show: After The Credits",
-        "url": "https://archive.org/details/enjoy-the-show-after-the-credits"
-      },
-      {
-        "name": "F**KFACE",
+        "name": "F**KFACE (FIRST)",
         "url": "https://archive.org/details/rt-fkface"
       },
       {
-        "name": "Face Jam",
+        "name": "Face Jam (FIRST)",
         "url": "https://archive.org/details/rt-face-jam"
       },
       {
-        "name": "Funhaus Podcast",
+        "name": "Funhaus Podcast (FIRST)",
         "url": "https://archive.org/details/rt-funhaus-podcast"
       },
       {
-        "name": "Good Morning From Hell",
+        "name": "Good Morning From Hell (FIRST)",
         "url": "https://archive.org/details/rt-good-morning-from-hell"
       },
       {
-        "name": "Hypothetical Nonsense",
+        "name": "Hypothetical Nonsense (FIRST)",
         "url": "https://archive.org/details/rt-hypothetical-nonsense"
       },
       {
-        "name": "Let Me Clarify",
-        "url": "https://archive.org/details/Rooster-Teeth-Let-Me-Clarify"
-      },
-      {
-        "name": "Must Be Dice",
+        "name": "Must Be Dice (FIRST)",
         "url": "https://archive.org/details/rt-must-be-dice"
       },
       {
-        "name": "OT3 Podcast",
+        "name": "Off Topic (Audio - FIRST)",
+        "url": "https://archive.org/details/rt-off-topic-podcast"
+      },
+      {
+        "name": "OT3 Podcast (FIRST)",
         "url": "https://archive.org/details/rt-ot3-podcast"
       },
       {
-        "name": "Red Web",
+        "name": "Red Web (FIRST)",
         "url": "https://archive.org/details/rt-red-web"
       },
       {
-        "name": "RT Podcast (1-235)",
+        "name": "Rooster Teeth Podcast (Audio - FIRST)",
+        "url": "https://archive.org/details/rt-rooster-teeth-podcast"
+      },
+      {
+        "name": "Rooster Teeth Podcast 1-235 (Audio)",
         "url": "https://archive.org/details/roosterteeth-podcast-collection-2008"
       },
       {
-        "name": "RT Podcast video (100-230)",
+        "name": "Rooster Teeth Podcast 100-230 (Video)",
         "url": "https://archive.org/details/roosterteeth-podcast-collection-video-2011"
       },
       {
-        "name": "Ship Hits the Fan",
+        "name": "Ship Hits the Fan (FIRST)",
         "url": "https://archive.org/details/rt-ship-hits-the-fan1"
       },
       {
-        "name": "So... Alright",
+        "name": "So... Alright (FIRST)",
         "url": "https://archive.org/details/rt-so-alright-podcast"
       },
       {
-        "name": "Tales from the Stinky Dragon",
+        "name": "Sportsball (Video)",
+        "url": "https://archive.org/details/Sportsball/"
+      },
+      {
+        "name": "Tales from the Stinky Dragon (FIRST)",
         "url": "https://archive.org/details/rt-tales-from-the-stinky-dragon"
       },
       {
-        "name": "The Dogbark Podcast",
+        "name": "The Dogbark Podcast (FIRST)",
         "url": "https://archive.org/details/rt-dogbark-podcast"
       },
       {
-        "name": "The Most",
+        "name": "The Most (FIRST)",
         "url": "https://archive.org/details/rt-the-most"
       },
       {
-        "name": "Trash for Trash",
+        "name": "Trash for Trash (FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
       },
       {
         "name": "Assorted RT Podcasts",
         "url": "https://archive.org/details/rooster-teeth-podcast-network-2021"
-      },
-      {
-        "name": "Sportsball",
-        "url": "https://archive.org/details/Sportsball/2015-01+-+The+Worst+Sports+Fans.mp4"
       }
     ]
   },
