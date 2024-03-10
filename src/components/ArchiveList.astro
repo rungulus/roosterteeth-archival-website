@@ -11,12 +11,13 @@ import archives from "../data/archives.json";
       serif;
   }
 </style>
+<script src="https://cdn.rungus.zone/js/masonry.pkgd.min.js"></script>
 <div class="grid-container">
   <div class="row" data-masonry='{"percentPosition": true }'>
     {
       archives.map((archive) => (
         <>
-          <div class="col-6 pb-2">
+          <div class="col-sm-6 col-lg-4 pb-2">  
             <div class="frostedglass container" id={archive.category}>
               <p class="fs-2 runguszone mb-n">{archive.category}</p>
               <ul>
