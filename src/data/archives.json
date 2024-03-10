@@ -35,6 +35,10 @@
           "url": "https://archive.org/details/rt-free-play"
       },
       {
+        "name": "The Gauntlet",
+        "url": "https://archive.org/details/the-gauntlet_roosterteeth"
+      },
+      {
           "name": "Happy Hour",
           "url": "https://archive.org/details/chickendentisthappyhour"
       },
@@ -81,6 +85,10 @@
       {
           "name": "RT Comics",
           "url": "https://archive.org/details/rt-comics"
+      },
+      {
+        "name": "RT Inbox",
+        "url": "https://archive.org/details/RTInbox_roosterteeth"
       },
       {
           "name": "RT Showcase: The Ocean Maker",
@@ -170,6 +178,10 @@
       {
           "name": "Hardcore Monopoly: World Series",
           "url": "https://archive.org/details/worldseries"
+      },
+      {
+        "name": "Hardcore Monopoly: World Series (Extras)",
+        "url": "https://archive.org/details/brucesupremeleader"
       },
       {
         "name": "Hardcore Tabletop",
