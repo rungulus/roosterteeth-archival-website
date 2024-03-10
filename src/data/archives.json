@@ -87,8 +87,8 @@
           "url": "https://archive.org/details/rt-comics"
       },
       {
-        "name": "RT Inbox",
-        "url": "https://archive.org/details/RTInbox_roosterteeth"
+          "name": "RT Inbox",
+          "url": "https://archive.org/details/RTInbox_roosterteeth"
       },
       {
           "name": "RT Showcase: The Ocean Maker",
@@ -103,8 +103,8 @@
           "url": "https://archive.org/details/rooster-teeth-animated-adventures"
       },
       {
-        "name": "RWBY Vol.1-5",
-        "url": "https://archive.org/details/rwby-complete-volumes-1-5"
+          "name": "RWBY Vol.1-5",
+          "url": "https://archive.org/details/rwby-complete-volumes-1-5"
       },
       {
           "name": "Stroyent",
@@ -141,6 +141,10 @@
       {
           "name": "Chump",
           "url": "https://archive.org/details/chump_202403/S1E01+-+Can+YOU+Guess+Who's+Lying.mp4"
+      },
+      {
+        "name": "The Show Show",
+        "url": "https://archive.org/details/the-show-show-complete"
       }
     ]
   },
