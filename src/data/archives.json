@@ -264,6 +264,10 @@
         "url": "https://archive.org/details/lets-play-overcooked"
       },
       {
+        "name": "Let's Play Sky Factory 3",
+        "url": "https://archive.org/details/lets-play-minecraft-sky-factory-3"
+      },
+      {
         "name": "Let's Play Trials",
         "url": "https://archive.org/details/lets-play-trials-720p"
       },
@@ -336,6 +340,10 @@
           "url": "https://archive.org/details/achievement-hunter-theater-mode"
       },
       {
+        "name": "The Weird Place",
+        "url": "https://archive.org/details/rt-weirdplace"
+    },
+      {
           "name": "This Is...",
           "url": "https://archive.org/details/this-is...-rooster-teeth"
       },
@@ -389,6 +397,10 @@
         "url": "https://archive.org/details/2015-10-18-ju-1sd-rjdm-i-monkey-murder-1-dollar-1-hour-gameplay"
       },
       {
+        "name": "Action Packed and Jacked",
+        "url": "https://archive.org/details/2023-04-03-yl-7-t-46-gq-gqk-action-games-for-tough-guys-only"
+      },
+      {
         "name": "Abandonware",
         "url": "https://archive.org/details/2020-11-16-8-sl-1s-h-3-pvao-war-on-errors-lost-games-of-2003-abandonware-gameplay"
       },
@@ -403,6 +415,10 @@
       {
         "name": "Demowheel",
         "url": "https://archive.org/details/2023-10-18-v-pc-2n-5-jzs-uu-we-expose-sonics-secrets"
+      },
+      {
+        "name": "Dream Jobs",
+        "url": "https://archive.org/details/2021-11-15-azb-3-as-zbt-6w-talk-dirty-to-me-dream-jobs-gameplay"
       },
       {
         "name": "Open Haus/Your Comments",
@@ -471,7 +487,7 @@
       },
       {
         "name": "F**KFACE Breaks Shit",
-        "url": "https://archive.org/details/e-31-fkface-break-show-1-8/E1+F＊＊kface+Breaks+Sh＊t.mp4"
+        "url": "https://archive.org/details/e-1-fkface-breaks-sht"
       },
       {
         "name": "Regulation Animation",
@@ -480,6 +496,10 @@
       {
         "name": "Regulation Gameplay",
         "url": "https://archive.org/details/e-27-the-truck-boys-get-a-first-look-at-expeditions-a-mudrunner-game-early-access/Which+Hole+Is+the+Right+Hole？!+⧸⧸+Regulation+Gameplay+%5BnjWGgNs8KeI%5D.webm"
+      },
+      {
+        "name" : "Regulation Gameplay (FIRST)",
+        "url": "https://archive.org/details/F-kFace-Regulation-Gameplay-First"
       },
       {
         "name": "Regulation Gameplay Immortality",
