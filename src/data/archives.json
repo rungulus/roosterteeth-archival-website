@@ -48,7 +48,11 @@
       },
       {
           "name": "Immersion",
-          "url": "https://archive.org/details/Immersion_Full_Archive_with_First/"
+          "url": "https://archive.org/details/RT-Immersion-with-FIRST"
+      },
+      {
+          "name": "Last Laugh",
+          "url": "https://archive.org/details/RT_Last_Laugh-with_First"
       },
       {
           "name": "Me Vs. Drunk Me",
@@ -703,6 +707,14 @@
       {
         "name": "ANMA Instagram",
         "url": "https://archive.org/details/anma-instagram"
+      },
+      {
+        "name": "So... Alright Instagram",
+        "url": "https://archive.org/details/soalright-instagram"
+      },
+      {
+        "name": "F**KFACE Instagram",
+        "url": "https://archive.org/details/fuckface-instagram"
       }
     ]
   },
