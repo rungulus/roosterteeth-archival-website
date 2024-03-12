@@ -352,6 +352,10 @@
         "url": "https://archive.org/details/rt-weirdplace"
       },
       {
+        "name": "Theater Mode AUX (Audio)",
+        "url": "https://archive.org/details/rt-theater-mode-aux-podcast"
+      },
+      {
         "name": "This Is...",
         "url": "https://archive.org/details/this-is...-rooster-teeth"
       },
@@ -475,6 +479,18 @@
       {
         "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
+      },
+      {
+        "name": "Twits and Crits (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-podcast"
+      },
+      {
+        "name": "Twits and Crits - The League of Extraordinary Jiremen (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-league-of-extraordinary-jiremen-podcast"
+      },
+      {
+        "name": "Wrestling with the Week (Audio)",
+        "url": "https://archive.org/details/rt-wrestling-with-the-week-podcast"
       }
     ]
   },
@@ -607,6 +623,10 @@
         "url": "https://archive.org/details/rt-i-have-notes-podcast"
       },
       {
+        "name": "Inside Gaming Daily (Audio)",
+        "url": "https://archive.org/details/rt-inside-gaming-daily-podcast"
+      },
+      {
         "name": "Inside Gaming Podcast (Audio)",
         "url": "https://archive.org/details/rt-inside-gaming-podcast"
       },
@@ -667,6 +687,10 @@
         "url": "https://archive.org/details/rt-tales-from-the-stinky-dragon"
       },
       {
+        "name": "The Bungalow: The Business of Rooster Teeth (Audio)",
+        "url": "https://archive.org/details/rt-the-bungalow-podcast"
+      },
+      {
         "name": "The Dogbark Podcast (FIRST)",
         "url": "https://archive.org/details/rt-dogbark-podcast"
       },
@@ -675,8 +699,32 @@
         "url": "https://archive.org/details/rt-the-most"
       },
       {
+        "name": "The Patch (Audio)",
+        "url": "https://archive.org/details/rt-the-patch-podcast"
+      },
+      {
+        "name": "The Real Canon (Audio)",
+        "url": "https://archive.org/details/rt-real-canon-podcast"
+      },
+      {
+        "name": "Theater Mode AUX (Audio)",
+        "url": "https://archive.org/details/rt-theater-mode-aux-podcast"
+      },
+      {
         "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
+      },
+      {
+        "name": "Twits and Crits (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-podcast"
+      },
+      {
+        "name": "Twits and Crits - The League of Extraordinary Jiremen (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-league-of-extraordinary-jiremen-podcast"
+      },
+      {
+        "name": "Wrestling with the Week (Audio)",
+        "url": "https://archive.org/details/rt-wrestling-with-the-week-podcast"
       },
       {
         "name": "Assorted RT Podcasts",
@@ -697,8 +745,8 @@
     "category": "Inside Gaming",
     "links": [
       {
-        "name": "The Five",
-        "url": "https://archive.org/details/lp-community-the-five-rooster-teeth"
+        "name": "Inside Gaming Daily (Audio)",
+        "url": "https://archive.org/details/rt-inside-gaming-daily-podcast"
       },
       {
         "name": "Inside Gaming Podcast (Audio)",
@@ -707,6 +755,14 @@
       {
         "name": "Inside Gaming Public Livestreams",
         "url": "https://archive.org/details/inside-gaming-youtube-public-livestreams-rooster-teeth/Satisfactory+with+Conor!+%5BTJUL5XsVcsw%5D.mp4"
+      },
+      {
+        "name": "The Five",
+        "url": "https://archive.org/details/lp-community-the-five-rooster-teeth"
+      },
+      {
+        "name": "The Patch (Audio)",
+        "url": "https://archive.org/details/rt-the-patch-podcast"
       }
     ]
   },
