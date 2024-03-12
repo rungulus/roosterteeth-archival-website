@@ -4,19 +4,21 @@ import Countdown from "./Countdown.svelte";
 
 <pagelogo>
   <div class="row">
-    <div class="frostedglass mt-3 mb-3 pb-2">
+    <div class="frostedglass mt-3 mb-1 pb-2">
       <p class="text-center m-0 runguszone siteText">Archive of Pimps</p>
       <p class="fs-5 text-center runguszone">
         The Rooster Teeth Archival Project
       </p>
       <hr />
-      <Countdown client:only />
+      <div class="mt-n mb-n">
+        <Countdown client:only />
+      </div>
       <hr />
-      <p class="text-center runguszone">
+      <p class="text-center runguszone mt-n">
         Archiving everything Rooster Teeth because WB <em>cannot be trusted!</em
         >
       </p>
-      <p class="text-center runguszone mb-n2 fs-5">
+      <p class="text-center runguszone mb-n mt-n fs-5">
         <a href="https://discord.gg/SHCURNvG8v" class="alert-link"
           >Join the Discord!</a
         >
@@ -24,11 +26,11 @@ import Countdown from "./Countdown.svelte";
           href="https://docs.google.com/spreadsheets/d/10g_7wKA2DEsoWWnG_RG-IyoZf3QEdIv8X97bUbrK5-E/preview#gid=1040887463"
           class="alert-link">Source Document</a
         >
-        - <a
-          href="https://www.youtube.com/watch?v=yyFPu5lqE-I"
-          class="alert-link">RT Announcement Livestream</a
-        >
       </p>
     </div>
+    <div class="container mb-2 frostedglass col">
+      <p class="text-center runguszone mt-1" style="font-size:135%">Some RT YouTube Channels were also backed up on Ragtag Archive. <br>
+        <a class="alert-link" href="https://roosteretal-archive.ragtag.moe/">Click here to check it out!</a></p>
+        </div>
   </div>
 </pagelogo>
