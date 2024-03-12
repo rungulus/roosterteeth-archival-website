@@ -691,6 +691,10 @@
         "url": "https://archive.org/details/rt-real-canon-podcast"
       },
       {
+        "name": "Theater Mode AUX (Audio)",
+        "url": "https://archive.org/details/rt-theater-mode-aux-podcast"
+      },
+      {
         "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
       },
@@ -713,10 +717,6 @@
     "category": "Inside Gaming",
     "links": [
       {
-        "name": "The Five",
-        "url": "https://archive.org/details/lp-community-the-five-rooster-teeth"
-      },
-      {
         "name": "Inside Gaming Daily (Audio)",
         "url": "https://archive.org/details/rt-inside-gaming-daily-podcast"
       },
@@ -727,6 +727,14 @@
       {
         "name": "Inside Gaming Public Livestreams",
         "url": "https://archive.org/details/inside-gaming-youtube-public-livestreams-rooster-teeth/Satisfactory+with+Conor!+%5BTJUL5XsVcsw%5D.mp4"
+      },
+      {
+        "name": "The Five",
+        "url": "https://archive.org/details/lp-community-the-five-rooster-teeth"
+      },
+      {
+        "name": "The Patch (Audio)",
+        "url": "https://archive.org/details/rt-the-patch-podcast"
       }
     ]
   },
