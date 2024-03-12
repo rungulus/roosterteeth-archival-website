@@ -240,6 +240,10 @@
         "url": "https://archive.org/details/02578910"
       },
       {
+        "name": "Heroes & Halfwits (Audio)",
+        "url": "https://archive.org/details/rt-heroes-and-halfwifts-podcast"
+      },
+      {
         "name": "Imaginary Achievements",
         "url": "https://archive.org/details/imaginary-achievements-rooster-teeth"
       },
@@ -543,12 +547,20 @@
         "url": "https://archive.org/details/rt-chump-podcast"
       },
       {
+        "name": "Class of 198X (Audio)",
+        "url": "https://archive.org/details/rt-class-of-198x"
+      },
+      {
         "name": "D&D, but... (FIRST)",
         "url": "https://archive.org/details/rt-dnd-but"
       },
       {
         "name": "DEATH BATTLE Cast (FIRST)",
         "url": "https://archive.org/details/rt-death-battle-cast"
+      },
+      {
+        "name": "Enjoy the Show (Audio)",
+        "url": "https://archive.org/details/rt-enjoy-the-show-podcast"
       },
       {
         "name": "F**KFACE (FIRST)",
@@ -559,24 +571,56 @@
         "url": "https://archive.org/details/rt-face-jam"
       },
       {
+        "name": "Fan Service (Audio)",
+        "url": "https://archive.org/details/rt-fan-service-podcast"
+      },
+      {
         "name": "Funhaus Podcast (Audio - FIRST)",
         "url": "https://archive.org/details/rt-funhaus-podcast"
+      },
+      {
+        "name": "Glitch Please (Audio)",
+        "url": "https://archive.org/details/rt-glitch-please-podcast"
       },
       {
         "name": "Good Morning From Hell (FIRST)",
         "url": "https://archive.org/details/rt-good-morning-from-hell"
       },
       {
+        "name": "Heroes & Halfwits (Audio)",
+        "url": "https://archive.org/details/rt-heroes-and-halfwifts-podcast"
+      },
+      {
         "name": "Hypothetical Nonsense (Audio - FIRST)",
         "url": "https://archive.org/details/rt-hypothetical-nonsense"
+      },
+      {
+        "name": "I Have Notes (Audio)",
+        "url": "https://archive.org/details/rt-i-have-notes-podcast"
+      },
+      {
+        "name": "Inside Gaming Podcast (Audio)",
+        "url": "https://archive.org/details/rt-inside-gaming-podcast"
+      },
+      {
+        "name": "Murder Room (Audio)",
+        "url": "https://archive.org/details/rt-murder-room-podcast"
       },
       {
         "name": "Must Be Dice (FIRST)",
         "url": "https://archive.org/details/rt-must-be-dice"
       },
       {
+        "name": "No Dumb Answers with Mark & Brad (Audio)",
+        "url": "https://archive.org/details/rt-no-dumb-answers-with-mark-and-brad"
+      },
+      {
         "name": "Off Topic (Audio - FIRST)",
         "url": "https://archive.org/details/rt-off-topic-podcast"
+      },
+      {
+        "name": "On The Spot (Audio)",
+        "url": "https://archive.org/details/rt-on-the-spot-podcast"
       },
       {
         "name": "OT3 Podcast (FIRST)",
@@ -649,6 +693,10 @@
         "url": "https://archive.org/details/lp-community-the-five-rooster-teeth"
       },
       {
+        "name": "Inside Gaming Podcast (Audio)",
+        "url": "https://archive.org/details/rt-inside-gaming-podcast"
+      },
+      {
         "name": "Inside Gaming Public Livestreams",
         "url": "https://archive.org/details/inside-gaming-youtube-public-livestreams-rooster-teeth/Satisfactory+with+Conor!+%5BTJUL5XsVcsw%5D.mp4"
       }
@@ -708,6 +756,10 @@
   {
     "category": "Cow Chop",
     "links": [
+      {
+        "name": "Class of 198X (Audio)",
+        "url": "https://archive.org/details/rt-class-of-198x"
+      },
       {
         "name": "Theatre Mode",
         "url": "https://archive.org/details/theater-mode-cow-chop"
