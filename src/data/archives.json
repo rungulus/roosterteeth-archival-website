@@ -475,6 +475,14 @@
       {
         "name": "Trash for Trash (Audio - FIRST)",
         "url": "https://archive.org/details/rt-trash-for-trash"
+      },
+      {
+        "name": "Twits and Crits (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-podcast"
+      },
+      {
+        "name": "Twits and Crits - The League of Extraordinary Jiremen (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-league-of-extraordinary-jiremen-podcast"
       }
     ]
   },
@@ -699,8 +707,12 @@
         "url": "https://archive.org/details/rt-trash-for-trash"
       },
       {
-        "name": "Twits and Crits (Audio - FIRST)",
+        "name": "Twits and Crits (Audio)",
         "url": "https://archive.org/details/rt-twits-and-crits-podcast"
+      },
+      {
+        "name": "Twits and Crits - The League of Extraordinary Jiremen (Audio)",
+        "url": "https://archive.org/details/rt-twits-and-crits-league-of-extraordinary-jiremen-podcast"
       },
       {
         "name": "Assorted RT Podcasts",
