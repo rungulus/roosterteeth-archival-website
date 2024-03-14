@@ -891,6 +891,10 @@
     "category": "Screw Attack",
     "links": [
       {
+        "name": "The Armory",
+        "url": "https://archive.org/details/screw-attack-the-armory/"
+      },
+      {
         "name": "Evil Craig",
         "url": "https://archive.org/details/screw-attack-evil-craig"
       },
@@ -920,12 +924,24 @@
         "url": "https://archive.org/details/anma-instagram"
       },
       {
-        "name": "So... Alright Instagram",
-        "url": "https://archive.org/details/soalright-instagram"
+        "name": "Annual Pass TikTok",
+        "url": "https://archive.org/details/annualpasspod-tiktok-videos"
+      },
+      {
+        "name": "Dogbark TikTok",
+        "url": "https://archive.org/details/dogbarkshow-tiktok-videos"
       },
       {
         "name": "F**KFACE Instagram",
         "url": "https://archive.org/details/fuckface-instagram"
+      },
+      {
+        "name": "So... Alright Instagram",
+        "url": "https://archive.org/details/soalright-instagram"
+      },
+      {
+        "name": "Squad Team Force TikTok",
+        "url": "https://archive.org/details/stfclips-tiktok-videos"
       }
     ]
   },
