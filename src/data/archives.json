@@ -236,6 +236,10 @@
         "url": "https://archive.org/details/jenga-the-movie-u-zdica-eqm-uk_20240308_1535"
       },
       {
+        "name": "Behind The Scenes: Batman Collection",
+        "url": "https://archive.org/details/youtube-dleLiPW0KKo"
+      },
+      {
         "name": "Cloudberry Kingdom",
         "url": "https://archive.org/details/cloudberry-kingdom_202403"
       },
@@ -342,6 +346,10 @@
       {
         "name": "Olympics: Summer 2021",
         "url": "https://archive.org/details/the-achievement-hunter-2021-summer-olympics"
+      },
+      {
+        "name": "HORSE/PIG",
+        "url": "https://archive.org/details/achievement-horse-and-pig-halo-and-trials"
       },
       {
         "name": "Olympics: Winter 2014",
@@ -911,6 +919,10 @@
         "url": "https://archive.org/details/screw-attack-out-of-the-box"
       },
       {
+        "name": "Reasons We Love",
+        "url": "https://archive.org/details/screwattack-reasons-we-love"
+      },
+      {
         "name": "Reboot or Retro",
         "url": "https://archive.org/details/screw-attack-reboot-or-retro"
       }
@@ -942,6 +954,18 @@
       {
         "name": "Squad Team Force TikTok",
         "url": "https://archive.org/details/stfclips-tiktok-videos"
+      },
+      {
+        "name": "Inside Gaming TikTok",
+        "url": "https://archive.org/details/insidegamingdaily-tiktok-videos"
+      },
+      {
+        "name": "30 Morbid Minutes TikTok",
+        "url": "https://archive.org/details/30morbidminutes-tiktok-videos"
+      },
+      {
+        "name": "Good Morning From Hell TikTok",
+        "url": "https://archive.org/details/morningfromhell-tiktok-videos"
       }
     ]
   },
