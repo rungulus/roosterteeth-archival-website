@@ -1,0 +1,40 @@
+---
+import channels from "../data/playlists.json";
+---
+
+<style>
+  li {
+    font-size: 145%;
+    color: #dedede; /* https://images.gamebanana.com/img/ss/mods/58c87d7073cdf.jpg */
+    font-family:
+      roboto slab,
+      serif;
+  }
+</style>
+<div class="grid-container">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {
+      channels.map((channel) => (
+        <>
+          <div class="col-6 pb-2">
+            <div class="frostedglass container" id={channel.channel_name}>
+              <p class="fs-2 runguszone mb-n">{channel.channel_name}</p>
+                {channel.playlists.map((playlist) => (
+                  <details>
+                    <summary>{playlist.title}</summary>
+                    <div id={playlist.title}>
+                      <ol>
+                        {playlist.videos.map((video) => (
+                          <li><a class="alert-link runguszone" href={video.url}>{video.title}</a></li>
+                        ))}
+                      </ol>
+                    </div>
+                  </details>
+                ))}
+            </div>
+          </div>  
+        </>
+      ))
+    }
+  </div>
+</div>
