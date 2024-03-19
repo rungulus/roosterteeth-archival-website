@@ -15,7 +15,7 @@
 .frostedglass {
   box-shadow: 0 0 1rem 0 #000;
   border-radius: 10px;
-  position: static;
+  position: relative;
   z-index: 1;
   background: inherit;
   overflow: hidden;
@@ -64,6 +64,5 @@ p {
 
 a.playlist-link,
 li.playlist-link::marker {
-  /* font-size: 70%; */
   font-weight: 300;
 }
