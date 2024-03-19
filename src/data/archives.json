@@ -4,7 +4,7 @@
     "links": [
       {
         "name": "The Strangerhood",
-        "url": "https://archive.org/details/@blood_xiii/lists/3/strangerhood-season-1-dvd-(iso%2Bmkv)-%26-soundtrack"
+        "url": "https://archive.org/details/strangerhood-s01-s02"
       },
       {
         "name": "Red Vs. Blue (Full Series)",
@@ -25,6 +25,10 @@
       {
         "name": "Burnie's Vlog",
         "url": "https://archive.org/details/burnie-vlog-rtx-austin-food-tour-rooster-teeth"
+      },
+      {
+        "name": "Blood Fest",
+        "url": "https://archive.org/details/blood-fest-2018"
       },
       {
         "name": "Captain Dynamic",
@@ -525,6 +529,10 @@
         "url": "https://archive.org/details/2020-01-07-tunt-evqkns-jokes-on-us-funhaus-comments-135-open-haus-edition"
       },
       {
+        "name": "Sex Swing",
+        "url": "https://archive.org/details/sex-swing-s01"
+      },
+      {
         "name": "Theatre Mode",
         "url": "https://archive.org/details/theater-mode-funhaus"
       },
@@ -1006,6 +1014,10 @@
       {
         "name": "Best Friends Today TikTok",
         "url": "https://archive.org/details/todayfriendsbest-profile"
+      },
+      {
+        "name": "Death Battle TikTok",
+        "url": "https://archive.org/details/deathbattle-tiktok-videos"
       }
     ]
   },
