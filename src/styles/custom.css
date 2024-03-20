@@ -61,3 +61,8 @@
 p {
   color: #fff
 }
+
+a.playlist-link,
+li.playlist-link::marker {
+  font-weight: 300;
+}
