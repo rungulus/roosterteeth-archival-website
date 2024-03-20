@@ -4,7 +4,7 @@
     "links": [
       {
         "name": "The Strangerhood",
-        "url": "https://archive.org/details/@blood_xiii/lists/3/strangerhood-season-1-dvd-(iso%2Bmkv)-%26-soundtrack"
+        "url": "https://archive.org/details/@blood_xiii/lists/3/strangerhood-season-1%262-(dvd-rip%2C-extras-and-soundtrack)"
       },
       {
         "name": "Red Vs. Blue (Full Series)",
@@ -27,8 +27,16 @@
         "url": "https://archive.org/details/burnie-vlog-rtx-austin-food-tour-rooster-teeth"
       },
       {
+        "name": "Blood Fest",
+        "url": "https://archive.org/details/blood-fest-2018"
+      },
+      {
         "name": "Captain Dynamic",
         "url": "https://archive.org/details/captain-dynamic"
+      },
+      {
+        "name": "Camp Camp",
+        "url": "https://archive.org/details/camp-camp-s01-to-s04"
       },
       {
         "name": "Countdown",
@@ -149,6 +157,10 @@
       {
         "name": "RTAA",
         "url": "https://archive.org/details/rooster-teeth-animated-adventures"
+      },
+      {
+        "name": "RWBY S01-S09",
+        "url": "https://archive.org/details/rwby-s01-to-s09"
       },
       {
         "name": "RWBY Vol.1-5",
@@ -278,6 +290,10 @@
       {
         "name": "Dead By Daylight",
         "url": "https://archive.org/details/deadbydaylight_202403"
+      },
+      {
+        "name": "Destiny 1",
+        "url": "https://archive.org/details/AHLPDestiny"
       },
       {
         "name": "Destiny 2",
@@ -416,6 +432,10 @@
         "url": "https://archive.org/details/AH-Randomizers"
       },
       {
+        "name": "Sunday Driving",
+        "url": "https://archive.org/details/@blood_xiii/lists/6/sunday-driving"
+      },
+      {
         "name": "Technical Difficulties",
         "url": "https://archive.org/details/5kqa-4b"
       },
@@ -523,6 +543,10 @@
       {
         "name": "Open Haus/Your Comments",
         "url": "https://archive.org/details/2020-01-07-tunt-evqkns-jokes-on-us-funhaus-comments-135-open-haus-edition"
+      },
+      {
+        "name": "Sex Swing",
+        "url": "https://archive.org/details/sex-swing-s01"
       },
       {
         "name": "Theatre Mode",
@@ -1006,6 +1030,10 @@
       {
         "name": "Best Friends Today TikTok",
         "url": "https://archive.org/details/todayfriendsbest-profile"
+      },
+      {
+        "name": "Death Battle TikTok",
+        "url": "https://archive.org/details/deathbattle-tiktok-videos"
       }
     ]
   },
