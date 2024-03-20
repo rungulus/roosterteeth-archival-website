@@ -11,13 +11,15 @@ import channels from "../data/playlists.json";
       serif;
   }
 </style>
-<!-- <script src="https://cdn.rungus.zone/js/masonry.pkgd.min.js"></script> -->
-<!-- <script>
-  var container = document.querySelector('#grid-container');
-  var msnry = new Masonry( container, {
-    itemSelector: '.masonry'
+<script>
+  import "../data/masonry.pkgd.min.js";
+  var elem = document.querySelector(".grid");
+  var msnry = new Masonry(elem, {
+    // options
+    itemSelector: ".grid-item",
+    columnWidth: 200,
   });
-</script> -->
+</script>
 <div class="grid-container" id="grid-container">
   <div class="row">
     {
@@ -26,20 +28,27 @@ import channels from "../data/playlists.json";
           <div class="col-6 pb-2 masonry" id="masonry">
             <div class="frostedglass container" id={channel.channel_name}>
               <p class="fs-2 runguszone mb-n">{channel.channel_name}</p>
-                {channel.playlists.map((playlist) => (
-                  <details>
-                    <summary class="pb-1 fs-5" onclick="msnry.reloadItems()">{playlist.title}</summary>
-                    <div id={playlist.title}>
-                      <ol>
-                        {playlist.videos.map((video) => (
-                          <li class="playlist-link"><a class="alert-link runguszone playlist-link" href={video.url}>{video.title}</a></li>
-                        ))}
-                      </ol>
-                    </div>
-                  </details>
-                ))}
+              {channel.playlists.map((playlist) => (
+                <details>
+                  <summary class="pb-1 fs-5">{playlist.title}</summary>
+                  <div id={playlist.title}>
+                    <ol>
+                      {playlist.videos.map((video) => (
+                        <li class="playlist-link">
+                          <a
+                            class="alert-link runguszone playlist-link"
+                            href={video.url}
+                          >
+                            {video.title}
+                          </a>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                </details>
+              ))}
             </div>
-          </div>  
+          </div>
         </>
       ))
     }
