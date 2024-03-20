@@ -11,17 +11,24 @@ import channels from "../data/playlists.json";
       serif;
   }
 </style>
-<div class="grid-container">
-  <div class="row" data-masonry='{"percentPosition": true }'>
+<!-- <script src="https://cdn.rungus.zone/js/masonry.pkgd.min.js"></script> -->
+<!-- <script>
+  var container = document.querySelector('#grid-container');
+  var msnry = new Masonry( container, {
+    itemSelector: '.masonry'
+  });
+</script> -->
+<div class="grid-container" id="grid-container">
+  <div class="row">
     {
       channels.map((channel) => (
         <>
-          <div class="col-6 pb-2">
+          <div class="col-6 pb-2 masonry" id="masonry">
             <div class="frostedglass container" id={channel.channel_name}>
               <p class="fs-2 runguszone mb-n">{channel.channel_name}</p>
                 {channel.playlists.map((playlist) => (
                   <details>
-                    <summary>{playlist.title}</summary>
+                    <summary class="pb-1 fs-5" onclick="msnry.reloadItems()">{playlist.title}</summary>
                     <div id={playlist.title}>
                       <ol>
                         {playlist.videos.map((video) => (
