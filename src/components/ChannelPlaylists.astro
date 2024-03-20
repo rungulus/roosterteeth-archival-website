@@ -12,14 +12,11 @@ import channels from "../data/playlists.json";
   }
 </style>
 <div class="grid-container">
-  <div class="row">
-    <h4>Note: Not all links have had the corresponding item archived yet</h4>
-  </div>
-  <div class="row">
+  <div class="row" data-masonry='{"percentPosition": true }'>
     {
       channels.map((channel) => (
         <>
-          <div class="col-12 pb-2">
+          <div class="col-6 pb-2">
             <div class="frostedglass container" id={channel.channel_name}>
               <p class="fs-2 runguszone mb-n">{channel.channel_name}</p>
                 {channel.playlists.map((playlist) => (
