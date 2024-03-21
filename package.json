@@ -13,7 +13,11 @@
     "@astrojs/check": "^0.5.6",
     "@astrojs/svelte": "^5.2.0",
     "astro": "^4.4.15",
+    "masonry-layout": "^4.2.2",
     "svelte": "^4.2.12",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29"
   }
 }

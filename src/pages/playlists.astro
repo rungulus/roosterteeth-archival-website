@@ -3,6 +3,8 @@ import "../styles/custom.css";
 import "../styles/main.css";
 
 import ChannelPlaylists from "../components/ChannelPlaylists.astro";
+import Header from "../components/Header.astro";
+
 ---
 
 <html lang="en" data-bs-theme="dark" class="spaceBG">
@@ -31,7 +33,7 @@ import ChannelPlaylists from "../components/ChannelPlaylists.astro";
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-  <script src="https://cdn.rungus.zone/js/masonry.pkgd.min.js"></script>
+  
   <tags>
     <!-- opengraph -->
     <meta property="og:type" content="website" />
@@ -100,9 +102,16 @@ import ChannelPlaylists from "../components/ChannelPlaylists.astro";
   <body>
     <div class="container-fluid z-n1 position-absolute">
       <div class="container">
+        <Header />
+        <div class="row">
+          <div class="container col frostedglass mb-1 mt-1">
+            <p class="runguszone fs-4 text-center mt-1 mb-1">Note: Not all links have had the corresponding item archived yet</p>
+          </div>
+        </div>
         <ChannelPlaylists />
       </div>
     </div>
+    
   </body>
 
 </html>
