@@ -3,6 +3,8 @@ import "../styles/custom.css";
 import "../styles/main.css";
 
 import ChannelPlaylists from "../components/ChannelPlaylists.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en" data-bs-theme="dark" class="spaceBG">
@@ -98,9 +100,12 @@ import ChannelPlaylists from "../components/ChannelPlaylists.astro";
   </icons>
 
   <body>
+    
     <div class="container-fluid z-n1 position-absolute">
       <div class="container">
+        <Header />
         <ChannelPlaylists />
+        <Footer />
       </div>
     </div>
   </body>
