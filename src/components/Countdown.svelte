@@ -40,7 +40,7 @@
 </script>
 
 <p class="text-center fs-1 runguszone">
-  <span class="badge text-bg-primary"
+  <span class="badge text-bg-warning"
     ><span class="" id="time">{timeLeft}</span>
     <span id="increment">{increment}</span></span
   >
