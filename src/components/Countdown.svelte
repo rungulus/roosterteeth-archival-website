@@ -1,6 +1,6 @@
 <script>
-  const countDownDate = new Date("May 5, 2024 00:00:00").getTime();
-  //May 5 according to RT livestream, inside games video said May 10th...
+  const countDownDate = new Date("May 15, 2024 00:00:00").getTime();
+  //May 15th according to RT Email
 
   let countdownTimer;
   let timeLeft = "Loading...";
