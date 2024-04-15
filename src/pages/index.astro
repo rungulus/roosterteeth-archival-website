@@ -30,9 +30,12 @@ import Footer from "../components/Footer.astro";
       href="https://cdn.rungus.zone/v4/css/bootstrap.min.css"
     />
   </noscript>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+    rel="stylesheet"
+  />
   <script src="https://cdn.rungus.zone/js/masonry.pkgd.min.js"></script>
   <tags>
     <!-- opengraph -->
@@ -104,22 +107,25 @@ import Footer from "../components/Footer.astro";
       <div class="container">
         <Header />
         <div class="row">
+          <div class="row">
+            
+          </div>
+          <ArchiveList />
           <div class="container mb-2 frostedglass col">
-            <p class="text-center runguszone mt-1" style="font-size:135%">Some RT YouTube Channels were also backed up on Ragtag Archive. <br>
-              <a class="alert-link" href="https://roosteretal-archive.ragtag.moe/">Click here to check it out!</a></p>
+            <p class="text-center runguszone mt-1" style="font-size:135%">
+              Some RT YouTube Channels were also backed up on Ragtag Archive. <br
+              />
+              <a
+                class="alert-link"
+                href="https://roosteretal-archive.ragtag.moe/"
+                >Click here to check it out!</a>
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="container mb-2 frostedglass col">
-            <p class="text-center runguszone mt-1 mb-1" style="font-size:135%">The vast majority of content is now on Internet Archive, but still needs to be organized!</p>
-            <p class="text-center runguszone mt-1 mb-1" style="font-size:135%">In the meantime, checkout the <a class="alert-link" href="/playlists">Playlists page</a> for archived content from YouTube</p>
-            <p class="text-center runguszone mt-1 mb-1" style="font-size:135%">Or, try finding what you're looking for on our <a class="alert-link" href="https://docs.google.com/spreadsheets/d/17Vqd_xYLh-xma_nw_TkeFexzQ2sZ4uEntibiZB8KlRI/view" target="_blank" rel="noopener noreferrer">Archival Checklist!</a></p>
-          </div>
-        </div>
-        <ArchiveList />
         <Footer />
       </div>
     </div>
   </body>
+
 
 </html>
