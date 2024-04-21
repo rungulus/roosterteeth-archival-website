@@ -1,7 +1,25 @@
 ---
 import channels from "../data/playlists.json";
 ---
+<script>
+  function adjustColumnClass() {
+    const archCols = document.querySelectorAll(".archCol");
+    archCols.forEach((archCol) => {
+      if (window.innerWidth <= 600) {
+        // Adjust 600 to your mobile breakpoint
+        archCol.classList.remove("col-6");
+        archCol.classList.add("col-12");
+      } else {
+        archCol.classList.remove("col-12");
+        archCol.classList.add("col-6");
+      }
+    });
+  }
 
+  // Run initially and add event listener for resizing
+  adjustColumnClass();
+  window.addEventListener("resize", adjustColumnClass);
+</script>
 <style>
   li {
     font-size: 100%;

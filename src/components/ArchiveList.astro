@@ -2,6 +2,25 @@
 import archives from "../data/archives.json";
 ---
 
+<script>
+  function adjustColumnClass() {
+    const archCols = document.querySelectorAll(".archCol");
+    archCols.forEach((archCol) => {
+      if (window.innerWidth <= 600) {
+        // Adjust 600 to your mobile breakpoint
+        archCol.classList.remove("col-6");
+        archCol.classList.add("col-12");
+      } else {
+        archCol.classList.remove("col-12");
+        archCol.classList.add("col-6");
+      }
+    });
+  }
+
+  // Run initially and add event listener for resizing
+  adjustColumnClass();
+  window.addEventListener("resize", adjustColumnClass);
+</script>
 <style>
   li {
     font-size: 145%;
@@ -16,18 +35,20 @@ import archives from "../data/archives.json";
     {
       archives.map((archive) => (
         <>
-          <div class="col-6 pb-2">
+          <div class="archCol col-6 pb-2">
             <div class="frostedglass container" id={archive.category}>
               <p class="fs-2 runguszone mb-n">{archive.category}</p>
               <ul>
                 {archive.links.map((link) => (
                   <li>
-                    <a class="alert-link runguszone" href={link.url}>{link.name}</a>
+                    <a class="alert-link runguszone" href={link.url}>
+                      {link.name}
+                    </a>
                   </li>
                 ))}
               </ul>
             </div>
-          </div>  
+          </div>
         </>
       ))
     }
