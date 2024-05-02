@@ -1033,6 +1033,10 @@
         "url": "https://archive.org/details/dogbarkshow-tiktok-videos"
       },
       {
+        "name": "Face Jam Instagram",
+        "url": "https://archive.org/details/facejampod-instagram"
+      },
+      {
         "name": "F**KFACE Instagram",
         "url": "https://archive.org/details/fuckface-instagram"
       },
@@ -1071,6 +1075,10 @@
       {
         "name": "Red Web Podcast TikTok",
         "url": "https://archive.org/details/theredweb-tiktok-videos"
+      },
+      {
+        "name": "RoosterTeeth Instagram",
+        "url": "https://archive.org/details/roosterteeth-instagram"
       }
     ]
   },
