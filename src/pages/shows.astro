@@ -3,6 +3,7 @@ import "../styles/custom.css";
 import "../styles/main.css";
 
 import Header from "../components/Header.astro";
+import ArchiveList from "../components/ArchiveList.astro";
 import Footer from "../components/Footer.astro";
 ---
 
@@ -106,35 +107,19 @@ import Footer from "../components/Footer.astro";
       <div class="container">
         <Header />
         <div class="row">
+          <div class="row">
+            
+          </div>
+          <ArchiveList />
           <div class="container mb-2 frostedglass col">
             <p class="text-center runguszone mt-1" style="font-size:135%">
-              Visit RTArchive.com
-          </div>
-        </div>
-        <div class="row">
-          <div class="container mb-2 frostedglass col-auto">
-            <p class="text-center runguszone mt-1" style="font-size:135%">
-              metadata
-          </div>
-          <div class="container mb-2 frostedglass col-3">
-            <p class="text-center runguszone mt-1" style="font-size:135%">
-              checklist
-          </div>
-          <div class="container mb-2 frostedglass col-3">
-            <p class="text-center runguszone mt-1" style="font-size:135%">
-              legacy
-          </div>
-        </div>
-        <div class="row">
-          <div class="container mb-2 frostedglass col-auto">
-            <p class="text-center runguszone mt-1" style="font-size:135%">
-              discord
-          </div>
-        </div>
-        <div class="row">
-          <div class="container mb-2 frostedglass col-auto">
-            <p class="text-center runguszone mt-1" style="font-size:135%">
-              about/special thanks
+              Some RT YouTube Channels were also backed up on Ragtag Archive. <br
+              />
+              <a
+                class="alert-link"
+                href="https://roosteretal-archive.ragtag.moe/"
+                >Click here to check it out!</a>
+            </p>
           </div>
         </div>
         <Footer />
