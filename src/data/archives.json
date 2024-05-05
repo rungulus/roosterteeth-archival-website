@@ -131,6 +131,14 @@
         "url": "https://archive.org/details/rt-comics"
       },
       {
+        "name": "RT D&D",
+        "url": "https://archive.org/details/@mrsheen/lists/7/rt-d%26d"
+      },
+      {
+        "name": "RT Life",
+        "url": "https://archive.org/search?query=scanner%3A%22Roosterteeth+Website+Mirror%22+AND+show_title%3A%22RT+Life%22&sort=-date"
+      },
+      {
         "name": "RT Inbox",
         "url": "https://archive.org/details/RTInbox_roosterteeth"
       },
