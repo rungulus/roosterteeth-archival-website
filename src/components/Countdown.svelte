@@ -1,9 +1,10 @@
 <script>
-  const startDate = new Date("May 15, 2024 23:59:00").getTime();
+  const startDate = 1715835540 * 1000;
 
   let countdownTimer;
-  let timeElapsed = "Loading...";
+  let timeElapsed = "loading...";
   let increment = "";
+  let isCountingUp = false;
 
   function countdownClock() {
     const now = new Date().getTime();
@@ -14,6 +15,7 @@
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     if (distance > 0) {
+      isCountingUp = false;
       if (days > 0) {
         timeElapsed = `${days}`;
         increment = "days left of Rooster Teeth";
@@ -28,6 +30,7 @@
         increment = "seconds left of Rooster Teeth :(";
       }
     } else {
+      isCountingUp = true;
       const daysElapsed = Math.abs(days);
       const hoursElapsed = Math.abs(hours);
       const minutesElapsed = Math.abs(minutes);
@@ -52,7 +55,7 @@
 </script>
 
 <p class="text-center fs-3 runguszone">
-  <span class="badge text-bg-danger"
+  <span class={isCountingUp ? 'badge text-bg-info' : 'badge text-bg-danger'}
     ><span class="font-weight-bold" id="time">{timeElapsed}</span>
     <span id="increment">{increment}</span></span
   >
