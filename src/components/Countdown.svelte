@@ -1,7 +1,8 @@
 <script>
   const startDate = 1715835540 * 1000;
+  // May 15th, 2024 15:59 CDT
 
-  let countdownTimer;
+  //let countdownTimer;
   let timeElapsed = "loading...";
   let increment = "";
   let isCountingUp = true;
@@ -14,13 +15,13 @@
       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
     );
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+   // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //isCountingUp = true;
     const daysElapsed = Math.abs(days);
     const hoursElapsed = Math.abs(hours);
     const minutesElapsed = Math.abs(minutes);
-    const secondsElapsed = Math.abs(seconds);
+    //const secondsElapsed = Math.abs(seconds);
 
     if (minutesElapsed > 0) {
       timeElapsed = `${minutesElapsed}`;
@@ -35,6 +36,7 @@
           ? "hour since we were here"
           : "hours since we were here";
     } else {
+      clearInterval(countdownTimer); //dont run this when there are days left
       timeElapsed = `${daysElapsed}`;
       increment =
         daysElapsed === 1
