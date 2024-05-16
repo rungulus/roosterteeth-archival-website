@@ -54,7 +54,7 @@
   countdownTimer = setInterval(countdownClock, 1000);
 </script>
 
-<p class="text-center fs-3 runguszone">
+<p class="text-center fs-5 runguszone">
   <span class={isCountingUp ? 'badge text-bg-info' : 'badge text-bg-danger'}
     ><span class="font-weight-bold" id="time">{timeElapsed}</span>
     <span id="increment">{increment}</span></span
