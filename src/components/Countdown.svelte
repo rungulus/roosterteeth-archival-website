@@ -2,7 +2,7 @@
   const startDate = 1715835540 * 1000;
   // May 15th, 2024 15:59 CDT
 
-  //let countdownTimer;
+  let countdownTimer;
   let timeElapsed = "loading...";
   let increment = "";
   let isCountingUp = true;
