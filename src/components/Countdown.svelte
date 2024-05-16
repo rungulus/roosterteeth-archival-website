@@ -14,13 +14,13 @@
     const hours = Math.floor(
       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
     );
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    //const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
    // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //isCountingUp = true;
     const daysElapsed = Math.abs(days);
     const hoursElapsed = Math.abs(hours);
-    const minutesElapsed = Math.abs(minutes);
+    //const minutesElapsed = Math.abs(minutes);
     //const secondsElapsed = Math.abs(seconds);
 
    if (hoursElapsed > 0 && hoursElapsed < 24) {
