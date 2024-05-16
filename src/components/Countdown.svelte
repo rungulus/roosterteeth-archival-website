@@ -4,58 +4,49 @@
   let countdownTimer;
   let timeElapsed = "loading...";
   let increment = "";
-  let isCountingUp = false;
+  let isCountingUp = true;
 
   function countdownClock() {
     const now = new Date().getTime();
     const distance = startDate - now;
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    if (distance > 0) {
-      isCountingUp = false;
-      if (days > 0) {
-        timeElapsed = `${days}`;
-        increment = "days left of Rooster Teeth";
-      } else if (hours > 0) {
-        timeElapsed = `${hours}`;
-        increment = "hours left of Rooster Teeth";
-      } else if (minutes > 0) {
-        timeElapsed = `${minutes}`;
-        increment = "minutes left of Rooster Teeth";
-      } else {
-        timeElapsed = `${seconds}`;
-        increment = "seconds left of Rooster Teeth :(";
-      }
-    } else {
-      isCountingUp = true;
-      const daysElapsed = Math.abs(days);
-      const hoursElapsed = Math.abs(hours);
-      const minutesElapsed = Math.abs(minutes);
-      const secondsElapsed = Math.abs(seconds);
+    //isCountingUp = true;
+    const daysElapsed = Math.abs(days);
+    const hoursElapsed = Math.abs(hours);
+    const minutesElapsed = Math.abs(minutes);
+    const secondsElapsed = Math.abs(seconds);
 
-      if (daysElapsed > 0) {
-        timeElapsed = `${daysElapsed}`;
-        increment = "days since we were here";
-      } else if (hoursElapsed > 0) {
-        timeElapsed = `${hoursElapsed}`;
-        increment = "hours since we were here";
-      } else if (minutesElapsed > 0) {
-        timeElapsed = `${minutesElapsed}`;
-        increment = "minutes since we were here";
-      } else {
-        timeElapsed = `${secondsElapsed}`;
-        increment = "seconds since we were here";
-      }
+    if (minutesElapsed > 0) {
+      timeElapsed = `${minutesElapsed}`;
+      increment =
+        minutesElapsed === 1
+          ? "minute since we were here"
+          : "minutes since we were here";
+    } else if (hoursElapsed > 0 && minutesElapsed === 0) {
+      timeElapsed = `${hoursElapsed}`;
+      increment =
+        hoursElapsed === 1
+          ? "hour since we were here"
+          : "hours since we were here";
+    } else {
+      timeElapsed = `${daysElapsed}`;
+      increment =
+        daysElapsed === 1
+          ? "day since we were here"
+          : "days since we were here";
     }
   }
   countdownTimer = setInterval(countdownClock, 1000);
 </script>
 
 <p class="text-center fs-5 runguszone">
-  <span class={isCountingUp ? 'badge text-bg-info' : 'badge text-bg-danger'}
+  <span class={isCountingUp ? "badge text-bg-info" : "badge text-bg-danger"}
     ><span class="font-weight-bold" id="time">{timeElapsed}</span>
     <span id="increment">{increment}</span></span
   >
