@@ -1,11 +1,11 @@
 <script>
   const startDate = 1715835540 * 1000;
-  // May 15th, 2024 15:59 CDT
+  // May 15th, 2024 23:59 CDT
 
-  let countdownTimer;
+  //let countdownTimer;
   let timeElapsed = "loading...";
   let increment = "";
-  let isCountingUp = true;
+  //let isCountingUp = true;
 
   function countdownClock() {
     const now = new Date().getTime();
@@ -18,13 +18,14 @@
     // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //isCountingUp = true;
-    const daysElapsed = Math.abs(days);
+    let daysElapsed = Math.abs(days);
+    daysElapsed -=1;
     //const hoursElapsed = Math.abs(hours);
     //const minutesElapsed = Math.abs(minutes);
     //const secondsElapsed = Math.abs(seconds);
 
    //
-      clearInterval(countdownTimer); //dont run this when there are days left
+      //clearInterval(countdownTimer); //dont run this when there are days left
       timeElapsed = `${daysElapsed}`;
       increment =
         daysElapsed === 1
@@ -32,11 +33,12 @@
           : "days since we were here";
     //}
   }
-  countdownTimer = setInterval(countdownClock, 1000);
+  countdownClock();
+  //countdownTimer = setInterval(countdownClock, 1000);
 </script>
 
 <p class="text-center fs-3 runguszone">
-  <span class={isCountingUp ? "badge text-bg-info" : "badge text-bg-danger"}
+  <span class="badge text-bg-info"
     ><span class="font-weight-bold" id="time">{timeElapsed}</span>
     <span id="increment">{increment}</span></span
   >
