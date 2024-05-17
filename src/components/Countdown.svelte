@@ -11,32 +11,26 @@
     const now = new Date().getTime();
     const distance = startDate - now;
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
+    // const hours = Math.floor(
+    //   (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    // );
     //const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-   // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //isCountingUp = true;
     const daysElapsed = Math.abs(days);
-    const hoursElapsed = Math.abs(hours);
+    //const hoursElapsed = Math.abs(hours);
     //const minutesElapsed = Math.abs(minutes);
     //const secondsElapsed = Math.abs(seconds);
 
-   if (hoursElapsed > 0 && hoursElapsed < 24) {
-      timeElapsed = `${hoursElapsed}`;
-      increment =
-        hoursElapsed === 1
-          ? "hour since we were here"
-          : "hours since we were here";
-    } else {
+   //
       clearInterval(countdownTimer); //dont run this when there are days left
       timeElapsed = `${daysElapsed}`;
       increment =
         daysElapsed === 1
           ? "day since we were here"
           : "days since we were here";
-    }
+    //}
   }
   countdownTimer = setInterval(countdownClock, 1000);
 </script>
