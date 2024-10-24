@@ -7,6 +7,10 @@ import Footer from "../components/Footer.astro";
 ---
 
 <html lang="en" data-bs-theme="dark" class="spaceBG">
+<script> if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+</script>
   <!-- these meta tags cannot be nested in a module, so they're out here -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Archive of Pimps - Rooster Teeth Archival Project</title>
